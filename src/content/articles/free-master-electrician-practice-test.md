@@ -2,7 +2,10 @@
 title: "Free master electrician practice test: 8 sample questions with worked answers"
 description: "Free master electrician practice test: 8 sample questions with worked answers"
 keyword: "free master electrician practice test"
-publishDate: 2026-07-12
+publishDate: 2026-07-13
+updatedDate: 2026-07-13
+author: "The AmpExam Team"
+draft: false
 ---
 
 Free master electrician practice test: 8 sample questions with worked answers
@@ -26,7 +29,7 @@ What a master electrician exam covers
 
 Most jurisdictions build the master exam around the NEC (the current edition is NEC 2026; see https://www.nfpa.org) plus a smaller block of theory and jurisdiction rules. Weighting varies by state and test vendor, but the shape below is typical. Check your own state's candidate bulletin before you study; some outlines shift 5 to 10 points between categories.
 
-![Bar chart of approximate master electrician exam topic weighting](/media/397aa6098b4ee2cd4836a8c207a37de3a99f7bf8.png "Bar chart of approximate master electrician exam topic weighting")
+![Bar chart of approximate master electrician exam topic weighting](media/397aa6098b4ee2cd4836a8c207a37de3a99f7bf8.png "Bar chart of approximate master electrician exam topic weighting")
 
 *Approximate topic weighting on typical master electrician exams. Verify against your jurisdiction's content outline.*
 
