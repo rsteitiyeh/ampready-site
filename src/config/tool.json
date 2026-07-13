@@ -1,0 +1,183 @@
+{
+  "kind": "quiz",
+  "heading": "Journeyman Electrician Practice Test",
+  "sub": "24 practice questions across four core exam areas. Pick a category or run all.",
+  "mode": "quiz",
+  "passLabel": "6 of 10 to pass",
+  "categories": [
+    { "id": "general", "label": "General Theory" },
+    { "id": "code", "label": "Code Basics" },
+    { "id": "calculations", "label": "Calculations" },
+    { "id": "safety", "label": "Safety" }
+  ],
+  "questions": [
+    {
+      "q": "What does Ohm's law state about the relationship between voltage, current, and resistance?",
+      "options": ["Voltage equals current divided by resistance", "Voltage equals current multiplied by resistance", "Current equals voltage multiplied by resistance", "Resistance equals current multiplied by voltage"],
+      "answer": 1,
+      "explanation": "Ohm's law is E = I x R (voltage equals current times resistance). Rearranged, I = E / R and R = E / I.",
+      "category": "general"
+    },
+    {
+      "q": "In a series circuit, how does total resistance behave as more resistors are added?",
+      "options": ["It decreases", "It stays the same", "It increases", "It becomes zero"],
+      "answer": 2,
+      "explanation": "Series resistances add directly: R_total = R1 + R2 + R3..., so total resistance always increases as more resistors are added.",
+      "category": "general"
+    },
+    {
+      "q": "In a parallel circuit, what happens to total resistance as more branches are added?",
+      "options": ["It increases", "It decreases", "It stays the same", "It equals the largest resistor"],
+      "answer": 1,
+      "explanation": "Adding parallel branches gives current more paths to flow, which always lowers total resistance below the smallest individual branch resistance.",
+      "category": "general"
+    },
+    {
+      "q": "What is the basic difference between AC and DC current?",
+      "options": ["AC never changes direction; DC does", "AC periodically reverses direction; DC flows in one direction only", "DC is always higher voltage than AC", "There is no practical difference"],
+      "answer": 1,
+      "explanation": "Alternating current (AC) reverses direction periodically (60 Hz in the US), while direct current (DC) flows in a single, constant direction.",
+      "category": "general"
+    },
+    {
+      "q": "What does power factor describe in an AC circuit?",
+      "options": ["The ratio of real power to apparent power", "The total resistance of the circuit", "The frequency of the supply", "The number of phases in the system"],
+      "answer": 0,
+      "explanation": "Power factor is the ratio of real (working) power to apparent power. A power factor of 1.0 means all supplied power is doing useful work.",
+      "category": "general"
+    },
+    {
+      "q": "What is the primary purpose of a transformer?",
+      "options": ["To convert AC to DC", "To change voltage levels via electromagnetic induction", "To store electrical energy", "To measure current draw"],
+      "answer": 1,
+      "explanation": "A transformer uses electromagnetic induction between windings to step voltage up or down, without changing the frequency.",
+      "category": "general"
+    },
+    {
+      "q": "What is the main purpose of an equipment grounding conductor?",
+      "options": ["To carry normal operating current", "To provide a low-impedance path back to the source for fault current, clearing overcurrent devices", "To reduce voltage drop on long runs", "To balance loads across phases"],
+      "answer": 1,
+      "explanation": "The equipment grounding conductor gives fault current a low-impedance path back to the source so the overcurrent device trips quickly, limiting shock and fire risk. It normally carries no current.",
+      "category": "code"
+    },
+    {
+      "q": "What is the key difference between grounding and bonding?",
+      "options": ["They are the same thing", "Grounding connects to earth; bonding connects metal parts together to keep them at the same potential", "Bonding is only used in wet locations", "Grounding is only required on residential services"],
+      "answer": 1,
+      "explanation": "Grounding connects the electrical system to the earth as a reference; bonding joins metallic non-current-carrying parts together so they stay at the same electrical potential and provides a fault-current path.",
+      "category": "code"
+    },
+    {
+      "q": "What is the purpose of a circuit breaker or fuse in a branch circuit?",
+      "options": ["To regulate voltage", "To protect conductors and equipment from sustained overcurrent", "To convert AC to DC", "To improve power factor"],
+      "answer": 1,
+      "explanation": "Overcurrent devices like breakers and fuses are sized to protect the conductors and connected equipment from sustained overload or short-circuit current, per common NEC provisions.",
+      "category": "code"
+    },
+    {
+      "q": "Generally speaking, why must conductor ampacity be coordinated with its overcurrent protective device?",
+      "options": ["So the conductor is protected from operating temperatures that could damage its insulation", "So the wire looks neater in the panel", "Because all conductors have the same ampacity regardless of size", "It's only a recommendation, not a requirement"],
+      "answer": 0,
+      "explanation": "Per common NEC provisions, a conductor's overcurrent device generally must not exceed the conductor's ampacity, so the insulation isn't subjected to damaging heat under overload conditions.",
+      "category": "code"
+    },
+    {
+      "q": "What is a neutral conductor's function in a single-phase system with two hot legs?",
+      "options": ["It carries only fault current", "It carries the unbalanced current between the two ungrounded conductors", "It is never connected to ground", "It always carries double the load current"],
+      "answer": 1,
+      "explanation": "In a multiwire branch circuit, the shared neutral carries the difference (unbalance) between the two hot legs' currents, not the full load of either one.",
+      "category": "code"
+    },
+    {
+      "q": "Why does the NEC generally limit the number of current-carrying conductors bundled together without derating?",
+      "options": ["To make pulling wire easier", "Because heat from multiple current-carrying conductors bundled together can raise conductor temperature and reduce usable ampacity", "Because bundled conductors interfere with radio signals", "There is no such limit"],
+      "answer": 1,
+      "explanation": "When multiple current-carrying conductors are bundled, their combined heat can raise the operating temperature of each conductor, so ampacity is derated per common NEC provisions to avoid insulation damage.",
+      "category": "code"
+    },
+    {
+      "q": "A 120V circuit has a resistive load drawing 15A. What is the load's resistance?",
+      "options": ["6 ohms", "8 ohms", "12 ohms", "15 ohms"],
+      "answer": 1,
+      "explanation": "R = E / I = 120V / 15A = 8 ohms.",
+      "category": "calculations"
+    },
+    {
+      "q": "A heater draws 20A at 240V. What is its power consumption in watts?",
+      "options": ["1,200 W", "2,400 W", "4,800 W", "9,600 W"],
+      "answer": 2,
+      "explanation": "P = E x I = 240V x 20A = 4,800 W.",
+      "category": "calculations"
+    },
+    {
+      "q": "Two 6-ohm resistors are wired in series across a 12V source. What is the total current?",
+      "options": ["0.5 A", "1 A", "2 A", "4 A"],
+      "answer": 1,
+      "explanation": "Series resistance totals 12 ohms (6 + 6). I = E / R = 12V / 12 ohms = 1 A.",
+      "category": "calculations"
+    },
+    {
+      "q": "Two 10-ohm resistors are wired in parallel. What is the total (equivalent) resistance?",
+      "options": ["20 ohms", "10 ohms", "5 ohms", "2 ohms"],
+      "answer": 2,
+      "explanation": "For two equal resistors in parallel, total resistance is half of one: 10 ohms / 2 = 5 ohms.",
+      "category": "calculations"
+    },
+    {
+      "q": "A motor is rated at 3,600 watts and operates at 240V single-phase. Approximately what current does it draw?",
+      "options": ["7.5 A", "12 A", "15 A", "24 A"],
+      "answer": 2,
+      "explanation": "I = P / E = 3,600W / 240V = 15 A (approximate, ignoring power factor).",
+      "category": "calculations"
+    },
+    {
+      "q": "If voltage is doubled while resistance stays constant, what happens to current, per Ohm's law?",
+      "options": ["Current is halved", "Current stays the same", "Current doubles", "Current is squared"],
+      "answer": 2,
+      "explanation": "Since I = E / R, doubling voltage while resistance is unchanged doubles the current proportionally.",
+      "category": "calculations"
+    },
+    {
+      "q": "What is the purpose of lockout/tagout (LOTO) procedures before working on electrical equipment?",
+      "options": ["To speed up the job", "To ensure equipment is de-energized and cannot be re-energized while someone is working on it", "To document billable hours", "It is only required for equipment over 600V"],
+      "answer": 1,
+      "explanation": "LOTO isolates and locks out energy sources so equipment cannot be accidentally re-energized while a worker is exposed to it, protecting against shock and arc-flash injury.",
+      "category": "safety"
+    },
+    {
+      "q": "Before working on a circuit believed to be de-energized, what should always be done first?",
+      "options": ["Assume it is safe if the breaker is labeled off", "Verify the absence of voltage with a properly tested meter", "Ask a coworker if it feels safe", "Skip verification if it was off yesterday"],
+      "answer": 1,
+      "explanation": "Best practice (and most safety programs) require testing a meter on a known live source, verifying the circuit is de-energized, then re-testing the meter -- never assume based on labels alone.",
+      "category": "safety"
+    },
+    {
+      "q": "What is arc flash?",
+      "options": ["A type of grounding fault only", "A dangerous release of energy caused by an electrical fault through the air between conductors", "A normal part of switching operations", "A term for a blown fuse"],
+      "answer": 1,
+      "explanation": "Arc flash is a rapid release of heat and energy when a fault occurs through air between conductors or a conductor and ground, capable of causing severe burns and injury.",
+      "category": "safety"
+    },
+    {
+      "q": "Why should jewelry and metal watchbands be removed before electrical work?",
+      "options": ["They interfere with tools", "Metal conducts electricity and can cause severe burns or shock if it contacts an energized part", "It's a dress-code preference only", "They set off metal detectors on site"],
+      "answer": 1,
+      "explanation": "Metal jewelry conducts electricity readily; contact with an energized conductor can cause serious burns, arc flash, or electrocution.",
+      "category": "safety"
+    },
+    {
+      "q": "What is the general purpose of personal protective equipment (PPE) rated for arc flash?",
+      "options": ["To make work look professional", "To reduce injury from thermal energy released during an arc flash event", "To insulate against static electricity only", "It is optional on all voltage levels"],
+      "answer": 1,
+      "explanation": "Arc-rated PPE is designed to reduce burn injury from the thermal energy of an arc flash event; selection is typically based on an incident energy or hazard/risk assessment.",
+      "category": "safety"
+    },
+    {
+      "q": "What is a ground-fault circuit interrupter (GFCI) primarily designed to protect against?",
+      "options": ["Overloaded circuits", "Short circuits between hot and neutral", "Shock hazards from current leaking to ground through a person", "Voltage spikes from lightning"],
+      "answer": 2,
+      "explanation": "A GFCI monitors for a small imbalance between hot and neutral current, which can indicate current is leaking to ground -- potentially through a person -- and quickly interrupts the circuit to prevent shock.",
+      "category": "safety"
+    }
+  ]
+}

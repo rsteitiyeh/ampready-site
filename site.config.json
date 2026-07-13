@@ -1,0 +1,25 @@
+{
+  "SITE": "https://ampexam.com",
+  "BRAND": "AmpExam",
+  "niche": "02-electrician",
+  "stealth": true,
+  "toolArchetype": "quiz",
+  "mailerlite": { "formAction": "https://assets.mailerlite.com/jsonp/PLACEHOLDER/forms/subscribe" },
+  "lemonsqueezy": { "checkoutUrl": "https://PLACEHOLDER.lemonsqueezy.com/checkout" },
+  "cfBeaconToken": "",
+  "magnet": { "file": "/downloads/exam-formula-sheet.pdf", "doneMessage": "You're in - the Journeyman Exam Formula Sheet is downloading now." },
+  "author": { "name": "{{AUTHOR_NAME}}", "bio": "{{AUTHOR_BIO}}" },
+  "legalEntity": "Trilot LLC",
+  "comingSoon": {
+    "promise": "A free NEC-based journeyman practice test — conduit fill, box fill, grounding and bonding, Ohm's law, motor calcs. Coming soon.",
+    "captureLabel": "Send me the free formula sheet"
+  },
+  "theme": {
+    "bg": "#0E0F11",
+    "ink": "#C2C7CF",
+    "accent": "#FFD60A",
+    "accent2": "#FFB020",
+    "headingFont": "Oswald, \"Arial Narrow\", sans-serif",
+    "bodyFont": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Helvetica Neue\", Arial, sans-serif"
+  }
+}

@@ -1,0 +1,267 @@
+---
+/**
+ * AmpExam landing — flattened from the approved design
+ * (sandbox design: 01_AmpExam_Exam_Prep_Landing_Page/AmpExam Landing.dc.html).
+ * Dark industrial-electrical theme (navy #0E0F11, safety yellow #FFD60A).
+ * Practice-quiz section mounts the shared Tool engine (Quiz.astro) with an AmpExam skin below.
+ */
+import site from '../../site.config.json';
+import Base from '../layouts/Base.astro';
+import Tool from './Tool.astro';
+const ls = site.lemonsqueezy.checkoutUrl;
+---
+<Base
+  title="Free Journeyman Electrician Practice Test | AmpExam"
+  description="Free journeyman electrician practice test built on the NEC — conduit fill, box fill, grounding and bonding, Ohm's law, motor calcs."
+>
+  <Fragment slot="head">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&display=swap" rel="stylesheet" />
+  </Fragment>
+
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="nav">
+    <a class="brand" href="#top">
+      <svg width="26" height="26" viewBox="0 0 26 26" aria-hidden="true">
+        <rect x="1.5" y="1.5" width="23" height="23" rx="5" style="fill:none;stroke:#FFD60A;stroke-width:1.6" />
+        <polyline points="5,17 10,17 13,8 17,13 21,13" style="fill:none;stroke:#FFD60A;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round" />
+        <circle cx="21" cy="13" r="1.8" style="fill:#FFB020" />
+      </svg>
+      <span class="brand-word">Amp<b>Ready</b></span>
+    </a>
+    <nav aria-label="Main navigation">
+      <a href="#practice-test">Practice Test</a><a href="#study-guide">Study Guide</a><a href="/guides/">Guides</a><a href="#faq">FAQ</a>
+    </nav>
+    <a class="btn sm" href="#practice-test">Start Free Practice Test</a>
+  </header>
+
+  <main id="main">
+    <section id="top" class="hero">
+      <p class="eyebrow">Free NEC-Based Practice Test</p>
+      <h1>Pass your journeyman exam <span class="hl">the first time.</span></h1>
+      <div class="rule" aria-hidden="true"></div>
+      <p class="lede">Free NEC-based practice questions built around what state boards actually test — conduit fill, box fill, Ohm's law, grounding and bonding, motor calcs.</p>
+      <form class="email" data-subscribe method="post">
+        <label class="sr" for="hero-email">Email address</label>
+        <input id="hero-email" name="fields[email]" type="email" required placeholder="you@example.com" />
+        <button>Send Me the Free Practice Test</button>
+      </form>
+      <p class="micro">No spam. Unsubscribe anytime.</p>
+    </section>
+
+    <section class="trust">
+      <div class="trust-grid">
+        <div><p class="num">500+</p><p class="lbl">practice questions in the bank</p></div>
+        <div><p class="num">NEC 2023</p><p class="lbl">code references covered, 2020 differences flagged</p></div>
+        <div><p class="num">40+</p><p class="lbl">state licensing jurisdictions broken down</p></div>
+      </div>
+      <p class="trust-foot">No invented pass rates. No fake reviews. Built by electricians, reviewed against the NEC.</p>
+    </section>
+    <div class="ad">Advertisement</div>
+
+    <section id="state-exams" class="section problem">
+      <p class="eyebrow">The Problem</p>
+      <h2>Four hours. One code book. No time to flip pages.</h2>
+      <p class="section-lede">The exam isn't about memorizing the whole code book — it's about finding answers fast. <strong>Article 310</strong> conductor ampacity. <strong>Chapter 9, Table 1</strong> conduit fill. <strong>250.66</strong> grounding electrode conductor sizing. If you can't navigate the NEC under the clock, you're paying to retake a $75–$150 exam.</p>
+      <div class="cards">
+        <article class="card"><span class="num-tag">01</span><h3>The clock beats more people than the code does</h3><p>80–100 questions in 3–4 hours works out to roughly two minutes each. If finding a key table takes ninety seconds, the math is already against you.</p></article>
+        <article class="card"><span class="num-tag">02</span><h3>Calculation questions are where scores die</h3><p>Voltage drop. Box fill. Conductor derating. Motor FLC. Free points if you've drilled the method — score killers if you haven't.</p></article>
+        <article class="card"><span class="num-tag">03</span><h3>Every state runs it differently</h3><p>Open book or closed. NEC 2020 or 2023. Different vendors. Local amendments on top. Prep built for a generic exam leaves gaps exactly where your state differs.</p></article>
+      </div>
+    </section>
+
+    <section id="cheat-sheet" class="section magnet">
+      <div class="magnet-card">
+        <p class="eyebrow">Free Download</p>
+        <h2>The Journeyman Exam Formula Sheet</h2>
+        <p>One PDF: the NEC tables and formulas that show up on almost every state exam — ampacity, box fill, conduit fill, grounding electrode sizing, voltage drop, motor calcs. Drill them until you can find each one blind.</p>
+        <form class="email" data-subscribe method="post">
+          <label class="sr" for="magnet-email">Email address</label>
+          <input id="magnet-email" name="fields[email]" type="email" required placeholder="you@example.com" />
+          <button>Send Me the Formula Sheet</button>
+        </form>
+        <p class="micro">No spam. Unsubscribe anytime.</p>
+      </div>
+    </section>
+
+    <section id="study-guide" class="section offer">
+      <div class="offer-grid">
+        <div>
+          <p class="eyebrow">The Study Guide</p>
+          <h2>AmpExam Complete Study Guide</h2>
+          <p>The free test is a warm-up. This is the full program:</p>
+          <ul class="check-list">
+            <li><span class="check">✓</span><span><strong>Full-length timed practice exams</strong> — built to the clock your state actually runs.</span></li>
+            <li><span class="check">✓</span><span><strong>Worked calculation walkthroughs</strong> — Ohm's law, voltage drop, motor FLC, step by step.</span></li>
+            <li><span class="check">✓</span><span><strong>NEC navigation drills</strong> — timed table-hunting reps that build the speed the exam punishes you for not having.</span></li>
+            <li><span class="check">✓</span><span><strong>State-by-state exam format notes</strong> — 40+ licensing jurisdictions: edition, time limit, book rules, vendor.</span></li>
+          </ul>
+        </div>
+        <div class="price">
+          <strong>$19</strong>
+          <p class="price-note">One-time payment. Instant download. No subscription.</p>
+          <a class="btn" href={ls}>Get the Study Guide</a>
+          <p class="price-small">30-day refund — if it didn't help you prep, email us and get your $19 back. No forms, no hoops.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="practice-test" class="section quiz-wrap">
+      <p class="eyebrow">Try It Now</p>
+      <h2>Real practice questions</h2>
+      <p class="section-lede">Same code references, same traps as the live exam. Answers grade instantly — with the why.</p>
+      <Tool />
+      <div class="quiz-cta">
+        <a class="btn" href="#cheat-sheet">Get the Free Formula Sheet</a>
+        <p class="micro">25 questions in the full test · free by email · no spam</p>
+      </div>
+    </section>
+    <div class="ad">Advertisement</div>
+
+    <section class="section byline">
+      <div class="avatar">{'{{AUTHOR_PHOTO}}'}</div>
+      <div>
+        <p class="eyebrow">Who's Behind AmpExam</p>
+        <h2>{site.author.name}</h2>
+        <p>Every question set is written and reviewed against the NEC before it ships.</p>
+        <p>{site.author.bio}</p>
+      </div>
+    </section>
+
+    <section id="faq" class="section faq">
+      <p class="eyebrow">FAQ</p>
+      <h2>Straight answers</h2>
+      <div class="faq-list">
+        <details open><summary>Is this test based on the current NEC?<span>+</span></summary><p>Questions are built around common NEC provisions. Code editions and local amendments vary by state, so always confirm the edition your jurisdiction tests on.</p></details>
+        <details><summary>Do I need to buy the study guide to use the free test?<span>+</span></summary><p>No. The free practice test and formula sheet are free with no purchase required. The study guide is an optional paid add-on for deeper prep.</p></details>
+        <details><summary>How many questions are in the full free test?<span>+</span></summary><p>25 questions delivered by email, each with a worked answer explaining the correct choice.</p></details>
+        <details><summary>Does this cover my state's exam?<span>+</span></summary><p>Core NEC theory and calculations are consistent across most jurisdictions. State-specific rules, vendors and time limits vary — always check your state board's current requirements.</p></details>
+        <details><summary>Can I retake the practice quiz?<span>+</span></summary><p>Yes — the quiz reshuffles questions each time you restart it.</p></details>
+        <details><summary>Is my email kept private?<span>+</span></summary><p>Yes. We don't sell or share your email. See our Privacy page for details.</p></details>
+      </div>
+    </section>
+
+    <section class="final">
+      <h2>Ready to test yourself? <span class="hl">Start free.</span></h2>
+      <p>25 NEC-based questions, graded with worked answers. In your inbox in about a minute.</p>
+      <form class="email center" data-subscribe method="post">
+        <label class="sr" for="final-email">Email address</label>
+        <input id="final-email" name="fields[email]" type="email" required placeholder="you@example.com" />
+        <button>Send Me the Free Practice Test</button>
+      </form>
+      <p class="micro">No spam. Unsubscribe anytime.</p>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand" href="#top">
+      <svg width="20" height="20" viewBox="0 0 26 26" aria-hidden="true">
+        <rect x="1.5" y="1.5" width="23" height="23" rx="5" style="fill:none;stroke:#FFD60A;stroke-width:1.6" />
+        <polyline points="5,17 10,17 13,8 17,13 21,13" style="fill:none;stroke:#FFD60A;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round" />
+      </svg>
+      <span class="brand-word sm">Amp<b>Ready</b></span>
+    </a>
+    <nav><a href="#practice-test">Practice Test</a><a href="#study-guide">Study Guide</a><a href="/guides/">Guides</a><a href="#faq">FAQ</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a></nav>
+    <p>AmpExam is an independent study resource and is not affiliated with any state licensing board or the NFPA. NEC® and National Electrical Code® are registered trademarks of the National Fire Protection Association.</p>
+    <small>{site.legalEntity} · © 2026 AmpExam</small>
+  </footer>
+</Base>
+
+<style is:global>
+  :root{--bg:#0E0F11;--panel:#17181C;--border:#262A31;--ink:#C2C7CF;--ink-dim:#8A919B;--ink-bright:#F2F3F5;--yellow:#FFD60A;--amber:#FFB020}
+  *{box-sizing:border-box}html{scroll-behavior:smooth}
+  body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Arial,sans-serif;-webkit-font-smoothing:antialiased}
+  a{color:var(--yellow);text-decoration:none}
+  h1,h2,h3,.brand-word{font-family:Oswald,"Arial Narrow",sans-serif;text-transform:uppercase}
+  .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}
+  .skip{position:absolute;left:-9999px;top:0;z-index:100;background:var(--yellow);color:var(--bg);padding:10px 16px;font-weight:700;border-radius:0 0 6px 0}
+  .skip:focus{left:0}
+  .nav{position:sticky;top:0;z-index:50;background:rgba(14,15,17,.9);backdrop-filter:blur(10px);border-bottom:1px solid #1C1F25;display:flex;align-items:center;gap:clamp(14px,3vw,32px);flex-wrap:wrap;padding:10px clamp(16px,4vw,40px)}
+  .brand{display:flex;align-items:center;gap:9px;color:var(--ink-bright)}
+  .brand-word{font-weight:700;font-size:20px;letter-spacing:1.2px}.brand-word.sm{font-size:16px}
+  .brand-word b{color:var(--yellow);font-weight:700}
+  .nav nav{display:flex;gap:clamp(12px,2.5vw,26px);flex-wrap:wrap;margin-left:auto;align-items:center}
+  .nav nav a{font-size:14.5px;color:var(--ink)}
+  .btn,.email button{display:inline-flex;justify-content:center;align-items:center;font-family:Oswald,"Arial Narrow",sans-serif;font-weight:600;letter-spacing:1.2px;text-transform:uppercase;background:var(--yellow);color:var(--bg);border:none;cursor:pointer;padding:13px 22px;border-radius:6px;font-size:14px;box-shadow:0 0 18px rgba(255,214,10,.22);transition:.18s}
+  .btn:hover,.email button:hover{transform:translateY(-2px);box-shadow:0 0 30px rgba(255,214,10,.45);background:#FFDF3D}
+  .btn.sm{padding:8px 14px;font-size:12px}
+  .ad{height:90px;width:min(970px,calc(100% - 32px));margin:27px auto;display:grid;place-items:center;border:1px dashed #2E333C;border-radius:8px;color:#6F7680;font:11px ui-monospace,Menlo,monospace;letter-spacing:1.8px;text-transform:uppercase}
+  .hero{max-width:1140px;margin:0 auto;padding:clamp(72px,10vw,132px) clamp(20px,5vw,48px) clamp(56px,8vw,92px)}
+  .eyebrow{margin:0 0 14px;color:var(--amber);font-size:12.5px;letter-spacing:2.6px;text-transform:uppercase;font-weight:600}
+  h1{font-weight:700;font-size:clamp(42px,7vw,82px);line-height:1.03;color:var(--ink-bright);letter-spacing:.5px;margin:0 0 20px;max-width:900px}
+  .hl{color:var(--yellow)}
+  .rule{width:132px;height:4px;background:repeating-linear-gradient(-45deg,var(--yellow) 0 9px,var(--bg) 9px 18px);border-radius:2px;margin:0 0 24px}
+  .lede{font-size:18px;color:var(--ink);max-width:640px;margin:0 0 30px}
+  .email{display:flex;flex-wrap:wrap;gap:10px;max-width:600px}
+  .email.center{justify-content:center;margin:0 auto}
+  .email input{flex:1 1 240px;min-width:0;background:#141519;border:1px solid #2E333C;color:var(--ink-bright);border-radius:6px;padding:13px 16px;font-size:16px;font-family:inherit}
+  .email input:focus{outline:2px solid var(--yellow);outline-offset:2px}
+  .micro{font-size:13.5px;color:var(--ink-dim);margin:12px 0 0}
+  .trust{background:#121316;border-top:1px solid #1C1F25;border-bottom:1px solid #1C1F25;padding:34px clamp(20px,5vw,48px) 30px}
+  .trust-grid{max-width:1140px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:clamp(18px,3vw,36px)}
+  .trust .num{margin:0;font-weight:700;font-size:clamp(34px,4vw,46px);line-height:1;color:var(--yellow);font-family:Oswald,sans-serif}
+  .trust .lbl{margin:4px 0 0;font-size:14px;color:var(--ink-dim)}
+  .trust-foot{max-width:1140px;margin:24px auto 0;padding-top:20px;border-top:1px solid #1C1F25;font-size:14px;color:var(--ink-dim);text-align:center}
+  .section{max-width:1140px;margin:0 auto;padding:clamp(48px,7vw,84px) clamp(20px,5vw,48px)}
+  h2{font-weight:600;font-size:clamp(30px,4.2vw,44px);line-height:1.1;color:var(--ink-bright);letter-spacing:.6px;margin:0 0 16px;max-width:760px}
+  .section-lede{font-size:17px;color:var(--ink);margin:0 0 40px;max-width:760px}
+  .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
+  .card{background:var(--panel);border:1px solid var(--border);border-radius:10px;padding:26px 24px}
+  .num-tag{display:block;margin:0 0 12px;font-family:Oswald,sans-serif;font-weight:600;font-size:15px;letter-spacing:2px;color:var(--amber)}
+  .card h3{margin:0 0 10px;font-weight:600;font-size:21px;color:var(--ink-bright);letter-spacing:.4px}
+  .card p{margin:0;font-size:15.5px;color:#B7BCC5}
+  .magnet-card{position:relative;background:var(--panel);border:1px solid rgba(255,214,10,.22);border-radius:12px;padding:clamp(28px,5vw,48px);max-width:800px;margin:0 auto}
+  .offer-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:clamp(28px,5vw,56px);background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:clamp(28px,5vw,52px)}
+  .check-list{list-style:none;margin:22px 0 0;padding:0;display:grid;gap:13px}
+  .check-list li{display:flex;gap:12px;align-items:flex-start;font-size:16px;color:var(--ink)}
+  .check{color:var(--yellow);font-weight:700}
+  .price{display:flex;flex-direction:column;justify-content:center;align-items:flex-start;gap:12px}
+  .price strong{font-family:Oswald,sans-serif;font-size:clamp(56px,7vw,84px);font-weight:700;color:var(--yellow);line-height:1}
+  .price-note{margin:0 0 8px;font-size:15px;color:var(--ink-dim)}
+  .price-small{margin:8px 0 0;font-size:14px;color:var(--ink-dim);max-width:340px}
+  .quiz-wrap{text-align:left}
+  .quiz-cta{text-align:center;margin:28px 0 0}
+  .byline{display:flex;gap:clamp(20px,4vw,32px);flex-wrap:wrap;align-items:flex-start;background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:clamp(24px,4vw,36px)}
+  .avatar{width:112px;height:112px;border-radius:10px;flex:none;background:repeating-linear-gradient(45deg,#1C1E24 0 8px,#17181C 8px 16px);border:1px dashed #3A3F49;display:flex;align-items:center;justify-content:center;font-size:10.5px;color:var(--ink-dim)}
+  .faq-list{display:grid;gap:10px;max-width:820px}
+  .faq details{background:var(--panel);border:1px solid var(--border);border-radius:10px;overflow:hidden}
+  .faq summary{padding:17px 18px;display:flex;justify-content:space-between;gap:16px;cursor:pointer;list-style:none;font-weight:600;font-size:16.5px;color:var(--ink-bright)}
+  .faq summary::-webkit-details-marker{display:none}
+  .faq details p{margin:0;padding:0 18px 18px;font-size:15.5px;color:#B7BCC5}
+  .faq summary span{color:var(--amber);font-size:20px}
+  .final{max-width:680px;margin:0 auto;padding:clamp(56px,8vw,96px) clamp(20px,5vw,48px);text-align:center;background:#121316;border-top:1px solid #1C1F25}
+  .final h2{margin:0 auto 14px;max-width:none}
+  .final p{font-size:17px;color:var(--ink);margin:0 0 28px}
+  footer{max-width:1140px;margin:0 auto;padding:40px clamp(20px,5vw,48px) 48px}
+  footer .brand{margin-bottom:26px}
+  footer nav{display:flex;gap:clamp(14px,2.5vw,24px);flex-wrap:wrap;margin-bottom:26px}
+  footer nav a{font-size:13.5px;color:var(--ink-dim)}
+  footer p{font-size:13px;color:var(--ink-dim);line-height:1.7;margin:0 0 8px;max-width:780px}
+  footer small{font-size:13px;color:var(--ink-dim)}
+
+  /* ---- AmpExam skin for the shared Tool engine (quiz) ---- */
+  .quiz{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:clamp(22px,4vw,36px);box-shadow:none}
+  .quiz-head h3{color:var(--ink-bright);font-size:clamp(30px,4.2vw,36px);margin:0 0 6px}
+  .quiz-sub{color:var(--ink-dim)}
+  .quiz-controls select{background:#141519;border:1px solid #2E333C;color:var(--ink-bright);border-radius:6px}
+  .quiz-mode button{background:#141519;border:1px solid #2E333C;color:var(--ink);border-radius:6px}
+  .quiz-mode button.on{background:var(--yellow);color:var(--bg);font-weight:700;box-shadow:none}
+  .qz-counter{color:var(--ink-dim)}
+  .qz-question{color:var(--ink-bright)}
+  .qz-opt{background:#141519;border:1px solid #2E333C;color:var(--ink);border-radius:6px}
+  .qz-opt:hover{border-color:var(--amber)}
+  .qz-opt.right{background:rgba(255,214,10,.12);border-color:var(--yellow);color:var(--ink-bright)}
+  .qz-opt.wrong{background:rgba(255,80,80,.1);border-color:#d24a35}
+  .qz-explain{border-left:3px solid var(--amber);background:#141519;color:var(--ink)}
+  .qz-bar{background:#22252B}
+  .qz-bar span{background:var(--yellow)}
+  #qz-next,#qz-restart{background:var(--yellow);color:var(--bg);font-weight:700}
+  .qz-summary strong{color:var(--yellow)}
+  .qz-summary p{color:var(--ink)}
+
+  @media(max-width:850px){.nav nav{display:none}.offer-grid{grid-template-columns:1fr}}
+  @media(max-width:580px){.hero{padding:65px 16px 80px}h1{font-size:43px}.email{display:grid}}
+  @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+</style>
