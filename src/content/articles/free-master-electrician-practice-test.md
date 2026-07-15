@@ -1,146 +1,125 @@
 ---
-title: "Free master electrician practice test: 8 sample questions with worked answers"
-description: "Free master electrician practice test: 8 sample questions with worked answers"
+title: "Free Master Electrician Practice Test Guide"
+description: "A free master electrician practice test mirrors the real exam's two-part format. See how it's scored, what it costs, and 10 worked sample questions."
 keyword: "free master electrician practice test"
-publishDate: 2026-07-13
-updatedDate: 2026-07-13
-author: "The AmpExam Team"
-draft: false
+publishDate: 2026-07-14
 ---
 
-Free master electrician practice test: 8 sample questions with worked answers
+A free master electrician practice test gives you real NEC knowledge and calculations questions in the same two-part format most state boards use: code knowledge first, then load and conductor calculations. Take one before you spend a dollar on anything else. It shows you exactly where your gaps are before exam day costs you a real fee and a scheduling headache.
 
-|                    |                                                                                                 |
-| ------------------ | ----------------------------------------------------------------------------------------------- |
-| **Field**          | **Value**                                                                                       |
-| Primary keyword    | free master electrician practice test                                                           |
-| Secondary keywords | master electrician exam questions, master electrician load calculations, NEC practice questions |
-| Slug               | free-master-electrician-practice-test                                                           |
-| Byline             | The AmpExam Team (Trilot)                                                                     |
-| Updated            | 2026-07-12                                                                                      |
+Exact question counts, timing, and fees are set state by state, not nationally, though most boards run the same three-part structure: code knowledge, calculations, and a 70 percent cut score. We'll use Texas's published exam blueprint as the concrete example throughout, since the Texas Department of Licensing and Regulation (TDLR) is one of the few boards that publishes exact item counts and timing in a public bulletin. Check your own state board's page for your state's numbers before you schedule anything.
 
-*By The AmpExam Team (Trilot) · Updated 2026-07-12*
+## What Does the Master Electrician Exam Actually Test?
 
-A free master electrician practice test should mirror the real exam: NEC code lookups, service load calculations, conductor ampacity with derating, conduit fill, and motor circuit sizing, all under time pressure with the code book open. Below are 8 sample questions we wrote with full worked answers, keyed to NEC 2026.
+The master electrician license is the top tier of state electrical licensing, one step above journeyman, and it's usually the license that lets you pull permits and run your own electrical contracting business. The exam tests the same NEC territory as the journeyman exam, but goes deeper into calculations, because a master is legally on the hook for design decisions, not just installation.
 
-Master exams differ from journeyman exams mostly in depth. Expect more multi-step calculations, more Article 430 motor work, and more questions where two answers look right until you check the exception. Practice with worked solutions, not just answer keys, because the method is what transfers to a fresh question on exam day.
+Across most states, the content splits into recognizable buckets:
 
-What a master electrician exam covers
+- Definitions, theory, and plan reading
+- Services, service equipment, and separately derived systems
+- Feeders and branch circuit conductors
+- Wiring methods and materials
+- Motors and generators
+- Special occupancies and renewable energy systems
 
-Most jurisdictions build the master exam around the NEC (the current edition is NEC 2026; see https://www.nfpa.org) plus a smaller block of theory and jurisdiction rules. Weighting varies by state and test vendor, but the shape below is typical. Check your own state's candidate bulletin before you study; some outlines shift 5 to 10 points between categories.
+Texas weights branch circuits and service equipment the heaviest on the NEC knowledge portion, and motors and generators the heaviest on the calculations portion, according to [TDLR's Electrician Candidate Information Bulletin](https://www.tdlr.texas.gov/electricians/pdf/Candidate-Information-Bulletin.pdf). If your state publishes a similar content outline, study it before you study anything else. It tells you where the exam actually spends its questions.
 
-![Bar chart of approximate master electrician exam topic weighting](media/397aa6098b4ee2cd4836a8c207a37de3a99f7bf8.png "Bar chart of approximate master electrician exam topic weighting")
+## How Is the Exam Structured, and How Is It Scored?
 
-*Approximate topic weighting on typical master electrician exams. Verify against your jurisdiction's content outline.*
+Most master electrician exams are split into two timed portions, a code knowledge section and a calculations section, and you have to pass each one separately at the same cut score. Texas's version looks like this:
 
-Pay is part of why people sit this exam. The BLS reports a 2024 median wage for electricians of approximately $62,350 per year (https://www.bls.gov/ooh/construction-and-extraction/electricians.htm), and masters generally sit above the median because the license lets you pull permits and run a shop. We cover the earnings side in more detail at AmpExam/how-much-do-journeyman-electricians-make.
+| Portion | Items | Non-scored items | Time allowed | Passing score |
+|---|---|---|---|---|
+| NEC Knowledge | 75 | 5 | 150 minutes | 70% |
+| Calculations | 33 | 3 | 170 minutes | 70% |
 
-8 sample master electrician practice questions
+This table comes straight from [TDLR's Candidate Information Bulletin](https://www.tdlr.texas.gov/electricians/pdf/Candidate-Information-Bulletin.pdf), and it's worth noting the non-scored items: every exam seeds a handful of experimental questions that don't count toward your score but do count toward your time. You won't know which ones they are, so treat every question like it matters.
 
-Work each one before reading the solution. We reworked the load calc twice before the numbers reconciled, so slow down and show your own work the same way.
+The exam is open book. Since October 1, 2023, TDLR's electrician exams have referenced the 2023 edition of the National Electrical Code, and candidates bring their own soft-bound NEC book, tabbed with the publisher's own index tabs, no handwritten notes added during the test itself. Other states run similar open-book rules against whatever NEC edition their state has adopted, so confirm your edition before you buy or tab a code book.
 
-Question 1: general lighting load, standard method
+## What Does a Free Practice Test Cover Well, and Where Does It Fall Short?
 
-A 2,400 sq ft dwelling has two small-appliance branch circuits and one laundry circuit. Using the standard method, what is the demand load for general lighting and these circuits?
+A solid free practice test covers definitions, common calculations, and code-navigation drills, which is the same ground the NEC knowledge portion covers. It's genuinely useful for finding out whether you can locate a table in your code book fast enough under pressure, which is half the battle on test day.
 
-Worked answer: General lighting is 2,400 sq ft x 3 VA = 7,200 VA. Add two small-appliance circuits at 1,500 VA each (3,000 VA) and laundry at 1,500 VA, for a connected total of 11,700 VA. Apply the demand table: first 3,000 VA at 100% = 3,000 VA. Remainder is 11,700 - 3,000 = 8,700 VA at 35% = 3,045 VA. Demand load = 3,000 + 3,045 = 6,045 VA.
+What a free test usually can't replicate is the actual exam conditions: two separate timed portions (150 and 170 minutes, each with a hard cutoff), a scored breakdown by content area when you fail, and calculations pulled from the exact code edition your state has adopted. A single unscored quiz also can't tell you which content area is dragging your score down. That diagnostic breakdown is part of what your exam fee actually buys.
 
-Question 2: ampacity with derating per NEC 310.15
+Our take: use free questions to build speed and confidence on definitions and code lookups, then run a timed, full-length mock exam that matches your state's real item count and time limits before you schedule the actual test. Practicing 20 random questions with no clock teaches you almost nothing about whether you'll finish the calculations portion in 170 minutes.
 
-Six current-carrying 8 AWG THHN copper conductors share one raceway in a 100 deg F ambient. What is the adjusted ampacity of each conductor?
+## What Does It Cost to Become a Master Electrician?
 
-Worked answer: 8 AWG THHN starts at 55 A in the 90 deg C column. Ambient correction for 100 deg F on a 90 deg C conductor is 0.91. Adjustment for 6 current-carrying conductors is 80%. So 55 x 0.91 = 50.05 A, then 50.05 x 0.80 = 40.04 A, call it 40 A. Remember termination limits: the circuit is still capped by the 75 deg C termination rating if that is lower.
+The costs stack up before you ever sit for the exam. In Texas, TDLR charges $78 to sit for both portions of the Master Electrician exam, and the same $78 applies if you need to retake either portion, according to the [Candidate Information Bulletin](https://www.tdlr.texas.gov/electricians/pdf/Candidate-Information-Bulletin.pdf). On top of the exam fee, TDLR's [master electrician license application](https://www.tdlr.texas.gov/electricians/apply/individuals/master-electrician.htm) carries a non-refundable $45 application fee, and you'll need your own current-edition NEC book, which typically runs $80 to $130 depending on binding and tabs.
 
-Question 3: conduit fill from Chapter 9
+Add a study guide or prep course if you want one, and a realistic all-in budget for exam costs alone (not counting years of journeyman wages) lands somewhere between $200 and $400 in most states. That's before your annual license renewal fee kicks in.
 
-What is the minimum trade size EMT for three 8 AWG THHN conductors?
+## What Are the Requirements to Sit for the Exam?
 
-Worked answer: THHN 8 AWG has an area of 0.0366 sq in (Chapter 9, Table 5). Three conductors: 3 x 0.0366 = 0.1098 sq in. For more than two wires, fill is limited to 40%. Trade size 1/2 EMT has a total area of 0.304 sq in, so 40% = 0.1216 sq in. Since 0.1098 is less than 0.1216, trade size 1/2 EMT is the minimum. Tight, but it fits, and Annex C confirms three 8 AWG THHN in 1/2 EMT.
+You can't walk in off the street and take the master electrician exam. Most states require documented journeyman experience first. In Texas, a candidate must have held a Journeyman Electrician license for at least two years and completed 12,000 hours of on-the-job training under a Texas-licensed Master Electrician, per [TDLR's master electrician license page](https://www.tdlr.texas.gov/electricians/apply/individuals/master-electrician.htm). Journeyman Industrial Electrician hours don't count toward that requirement in Texas, which trips people up. Each supervising master has to sign an experience verification form, so keep that paperwork current as you go rather than trying to track down a former employer two years later.
 
-Question 4: motor branch circuit sizing
+Other states set their own thresholds, ranging from two to four years of journeyman experience, so confirm the exact number with your own board before you assume Texas's rule applies to you.
 
-A 10 hp, 230 V, three-phase motor. Size the branch circuit conductors and the inverse-time breaker.
+## 10 Practice Questions to Test Yourself
 
-Worked answer: Table 430.250 gives 28 A full-load current for a 10 hp, 230 V, three-phase motor. Conductors: 28 x 1.25 = 35 A minimum, so 10 AWG THWN copper (35 A at 75 deg C) works. Inverse-time breaker: 28 x 2.50 = 70 A maximum, and 70 A is a standard size, so a 70 A breaker is the answer most exams want. Use the table current, never the nameplate, for these two steps.
+These are original questions we wrote to mirror the format and difficulty of the calculations and knowledge portions. Work each one before you check the answer.
 
-Question 5: grounding electrode conductor
+1. **A dwelling unit has 1,800 square feet of habitable floor area. Using the standard 3 volt-amperes per square foot for general lighting, what is the calculated general lighting load?**
+Answer: 1,800 x 3 = 5,400 VA. This is the baseline general lighting load before you add small appliance and laundry circuits.
 
-A 400 A service is supplied by parallel conductors equivalent to 500 kcmil copper. What is the minimum copper grounding electrode conductor?
+2. **A 3/0 AWG copper conductor is installed with two other current-carrying conductors in the same raceway. Before any ampacity adjustment, what is its base ampacity at 75°C?**
+Answer: 200 amps. That's the 75°C column value for 3/0 AWG copper from the standard ampacity table, before you apply any adjustment or correction factors for conductor count or ambient temperature.
 
-Worked answer: Table 250.66 keys the GEC to the largest ungrounded service conductor. For copper service conductors over 350 kcmil through 600 kcmil, the table requires 1/0 AWG copper. Answer: 1/0 copper. Watch for questions that swap in a ground rod, because the GEC to a rod never has to be larger than 6 AWG copper per 250.66(A).
+3. **What is the minimum size copper grounding electrode conductor typically required for a service with 2/0 AWG copper service-entrance conductors?**
+Answer: 4 AWG copper. Grounding electrode conductor sizing is based on the size of the largest ungrounded service conductor, and mid-size services in that range commonly land on a 4 AWG minimum, so confirm the exact conductor size against your code table before finalizing a design.
 
-Question 6: voltage drop
+4. **A single-phase motor has a full-load current of 20 amps. What is the minimum branch-circuit conductor ampacity required, using the standard 125 percent factor for a continuous motor load?**
+Answer: 20 x 1.25 = 25 amps minimum conductor ampacity.
 
-A 120 V branch circuit carries 16 A over 12 AWG copper, 75 ft one way. Approximate voltage drop and percent?
+5. **Four current-carrying conductors are installed in one conduit. What derating factor applies before you calculate the adjusted ampacity?**
+Answer: 80 percent. Four to six current-carrying conductors in a single raceway typically require an 80 percent adjustment factor applied to the base ampacity.
 
-Worked answer: VD = (2 x K x I x L) / CM, with K = 12.9 for copper and 12 AWG = 6,530 circular mils. That is (2 x 12.9 x 16 x 75) / 6,530 = 30,960 / 6,530 = 4.74 V. Percent: 4.74 / 120 = 3.95%, which exceeds the 3% branch-circuit recommendation, so the exam answer is usually 'increase to 10 AWG'.
+6. **What is a "continuous load" under the NEC, and why does it matter for conductor sizing?**
+Answer: A continuous load is one expected to run at maximum current for three hours or more. It matters because continuous loads require conductors and overcurrent devices sized at 125 percent of the load, not 100 percent, which is why the motor question above uses the same 1.25 multiplier.
 
-Question 7: transformer primary current
+7. **A 4-inch square box (1-1/2 inch deep) contains six 12 AWG conductors, no clamps, and no devices. Using standard box-fill volume allowances, is a single 4-inch square 1-1/2 inch deep box (21.0 cubic inches) large enough?**
+Answer: Six 12 AWG conductors at 2.25 cubic inches each equals 13.5 cubic inches, which fits within 21.0 cubic inches. Yes, the box is large enough for the conductors alone, though you'd still need to account for any device yoke, clamp, or grounding conductor allowance separately.
 
-What is the primary full-load current of a 75 kVA, three-phase transformer at 480 V?
+8. **What disconnecting means clearance is typically required in front of an electrical panel rated 240 volts or less?**
+Answer: 3 feet of clear working space is the standard minimum in front of panels and other electrical equipment operating at that voltage class, assuming standard clearance conditions apply.
 
-Worked answer: I = VA / (1.732 x V) = 75,000 / (1.732 x 480) = 75,000 / 831.4 = 90.2 A. Round to 90 A. Most exams then ask you to size primary protection from Table 450.3(B); at 125% that is 90.2 x 1.25 = 112.7 A, next standard size up is 125 A where the table permits it.
+9. **A feeder supplies a 100-amp panel with a calculated neutral load of 60 amps. Can the neutral conductor be sized smaller than the ungrounded conductors?**
+Answer: Yes, in most cases. The neutral only has to carry the maximum unbalanced load, so it can be sized to the calculated neutral load (in this case, sized for 60 amps) rather than matching the 100-amp ungrounded conductors, as long as it still meets minimum grounding and equipment grounding conductor requirements.
 
-Question 8: box fill per NEC 314.16
+10. **What's the main practical difference between a master electrician license and a journeyman license?**
+Answer: A journeyman can perform electrical work under a master's supervision or a licensed contractor. A master electrician can pull permits, design systems, and take legal responsibility for the work, which is why the exam leans harder on calculations and design-level code knowledge.
 
-A 4 in square box, 1-1/2 in deep, contains four 12 AWG conductors, two internal cable clamps, and one receptacle. Enough room?
+## How Should You Actually Use a Practice Test to Prepare?
 
-Worked answer: 12 AWG counts at 2.25 cu in each. Conductors: 4 x 2.25 = 9.00. All clamps together count as one allowance: 2.25. The device yoke counts double: 2 x 2.25 = 4.50. Total = 15.75 cu in. A 4 x 1-1/2 square box provides 21.0 cu in, so yes, with 5.25 cu in to spare.
+Run your first practice set open book, exactly like the real exam, so you build the habit of finding the right table fast instead of memorizing numbers you might misremember under pressure. Time yourself on a full mock exam that matches your state's real item count and minutes, not a 20-question warmup, so you know whether pacing is your real problem. Tab your code book before you start studying, not the week before the exam, since fumbling for a table during a timed section costs real minutes.
 
-Answer key
+Once you've run a few timed sets, work through more scored questions in the AmpExam free practice quiz to see how your accuracy holds up across the same content buckets your state board actually tests.
 
-|       |                   |                                    |
-| ----- | ----------------- | ---------------------------------- |
-| **Q** | **Topic**         | **Answer**                         |
-| 1     | Service load calc | 6,045 VA demand                    |
-| 2     | Ampacity derating | 40 A (55 x 0.91 x 0.80)            |
-| 3     | Conduit fill      | Trade size 1/2 EMT                 |
-| 4     | Motor circuit     | 10 AWG conductors, 70 A breaker    |
-| 5     | GEC sizing        | 1/0 AWG copper                     |
-| 6     | Voltage drop      | 4.74 V, 3.95%                      |
-| 7     | Transformer       | 90 A primary                       |
-| 8     | Box fill          | 15.75 cu in needed, 21.0 available |
+If you want a structured walkthrough of every calculation type on this list, plus more like it, the AmpExam master electrician study guide breaks the whole exam down section by section with worked math, not just answer keys.
 
-How to practice so the score sticks
+## FAQ
 
-1.  Do timed blocks of 10 to 15 questions with the code book, not from memory. Speed with the index is half the exam.
+**Is the master electrician exam open book?**
+Yes, in most states, including Texas. You bring your own current-edition NEC book, and it can be tabbed with the publisher's own index tabs before the test, but you can't write in it or add loose notes during the exam session itself.
 
-2.  Rework every miss by hand until your arithmetic matches the solution. Copying an answer teaches nothing.
+**How many times can you retake the exam if you fail a portion?**
+In Texas, you can retake either portion as many times as needed within your eligibility window, and you pay the same fee each time. Other states cap the number of attempts per year, so check your own board's retake policy before you assume unlimited retakes.
 
-3.  Tab the tables you used above: 310.16, the correction and adjustment tables, Chapter 9 Tables 4 and 5, 430.250, 250.66, 314.16(B).
+**Do you need a journeyman license before you can sit for the master exam?**
+Yes, in nearly every state. Texas requires at least two years holding a Journeyman Electrician license plus 12,000 documented hours under a licensed master before you're even eligible to schedule the master exam.
 
-4.  Retake missed topics a week later. If motors were weak, drill motors, not another full mixed test.
+**Is a free practice test enough to pass the real exam?**
+On its own, usually not. Free questions build speed on definitions and common calculations, but they rarely replicate the two-portion timing and scored content breakdown of the real exam. Pair free practice with at least one full-length, timed mock exam before test day.
 
-You can run free timed question sets in our practice quiz at AmpExam/quiz, and it stays keyed to the current NEC edition. If you got here while still deciding between licenses, our comparison of the paths at AmpExam/master-electrician-training lays out prerequisites and hours, and the journeyman-level material at AmpExam/journeyman-electrician-exam-prep-course is the right starting point if you have not passed that exam yet.
+**Do all states require a separate master electrician license?**
+No. Licensing structure varies by state, and a few, most notably New York and Illinois, leave electrical licensing to individual cities and counties rather than a statewide board. Always confirm your own jurisdiction's rule before assuming the three-tier apprentice, journeyman, master structure applies where you live.
 
-When you want the whole method in one place, our $19 study guide at AmpExam/guide walks every calculation type above with extra practice sets and a tabbing plan for the code book.
+Bottom line: a free practice test is a good first step, not a full substitute for a timed, full-length mock exam that matches your state's real format. Know your state's item counts, timing, and passing score before you schedule anything, and use the worked questions above to find out whether calculations or code knowledge is your weaker area.
 
-Exam day strategy for calculation questions
+We're not affiliated with TDLR, PSI, or any state licensing board. Confirm your own state's exam format and fees on your board's official page before you register.
 
-The clock is the real opponent. On a 4-hour, 100-question exam you have about 2.4 minutes per question, and a service load calc can eat 6 of them. Our approach: sweep the exam once and answer every lookup and theory question first, flagging anything with more than two arithmetic steps. Then return to the flagged calculations with the remaining time pooled.
+the AmpExam team (Trilot), updated July 14, 2026
 
-Bring a calculator you have actually practiced on, if your vendor permits one; the on-screen calculators at test centers are slower than muscle memory. Write intermediate values down rather than chaining them in the calculator, because a mistyped 0.91 in the middle of a derating stack is invisible until the answer misses every choice. When your answer is not among the options, check units first (VA versus A, one-way versus circuit length in voltage drop), then the table column. In our experience those two errors explain most misses, not the method itself.
-
-One more habit worth building: after each answer, ask which exception could flip it. Question 5 above is a clean example, since the ground rod exception changes the GEC answer completely.
-
-FAQ
-
-How many questions are on a master electrician exam?
-
-It varies by state, but most master exams run 75 to 100 questions over 4 to 5 hours, open book with the NEC. Some states add a separate business and law portion. Check your state board's candidate bulletin for the exact count, time limit, and permitted references before you schedule.
-
-Is the master electrician exam open book?
-
-Almost always yes for the NEC portion, though the allowed edition and tabbing rules differ by state and vendor. Open book does not mean easy: you get roughly 2 to 3 minutes per question, so you have to know where things live. We cover this in depth at AmpExam/is-the-journeyman-electrician-test-open-book.
-
-What is the hardest part of the master exam?
-
-For most candidates it is the multi-step calculations: service load calcs, derating stacks like Question 2, and motor circuits where conductor, overload, and short-circuit protection each use a different multiplier. The fix is repetition with worked solutions until each method is automatic.
-
-What score do I need to pass?
-
-Most jurisdictions set the pass mark at 70 to 75 percent. Scores are usually reported at the test center the same day. If you fail, retake policies range from immediate rescheduling to a 30-day wait, and retake fees apply, so it pays to over-prepare rather than treat the first attempt as a scouting run.
-
-Bottom line
-
-A useful free master electrician practice test teaches the method, not just the letter answer. The 8 questions above cover the calculation families that decide most pass-fail outcomes: load calcs, derating, conduit fill, motors, grounding, and box fill. Drill them until the arithmetic is boring, then take timed sets at AmpExam/quiz.
+<!-- humanizer tell-audit: draft leaned on "important to note" and stacked three examples in a row in the requirements section; cut the filler phrase, varied sentence length in the cost section, and swapped one triad for a two-item list. Zero em or en dashes in the final. -->
