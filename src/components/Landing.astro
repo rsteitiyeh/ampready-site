@@ -8,7 +8,6 @@
 import site from '../../site.config.json';
 import Base from '../layouts/Base.astro';
 import Tool from './Tool.astro';
-const ls = site.lemonsqueezy.checkoutUrl;
 ---
 <Base
   title="Free Journeyman Electrician Practice Test | AmpExam"
@@ -100,10 +99,13 @@ const ls = site.lemonsqueezy.checkoutUrl;
           </ul>
         </div>
         <div class="price">
-          <strong>$19</strong>
-          <p class="price-note">One-time payment. Instant download. No subscription.</p>
-          <a class="btn" href={ls}>Get the Study Guide</a>
-          <p class="price-small">30-day refund — if it didn't help you prep, email us and get your $19 back. No forms, no hoops.</p>
+          <p class="eyebrow">Free — Instant Download</p>
+          <form class="email" data-subscribe method="post">
+            <label class="sr" for="guide-email">Email address</label>
+            <input id="guide-email" name="fields[email]" type="email" required placeholder="you@example.com" />
+            <button type="submit">Send Me the Free Study Guide</button>
+          </form>
+          <p class="price-small">No spam. Unsubscribe anytime.</p>
         </div>
       </div>
     </section>
@@ -121,7 +123,6 @@ const ls = site.lemonsqueezy.checkoutUrl;
     <div class="ad">Advertisement</div>
 
     <section class="section byline">
-      <div class="avatar">{'{{AUTHOR_PHOTO}}'}</div>
       <div>
         <p class="eyebrow">Who's Behind AmpExam</p>
         <h2>{site.author.name}</h2>
@@ -135,7 +136,7 @@ const ls = site.lemonsqueezy.checkoutUrl;
       <h2>Straight answers</h2>
       <div class="faq-list">
         <details open><summary>Is this test based on the current NEC?<span>+</span></summary><p>Questions are built around common NEC provisions. Code editions and local amendments vary by state, so always confirm the edition your jurisdiction tests on.</p></details>
-        <details><summary>Do I need to buy the study guide to use the free test?<span>+</span></summary><p>No. The free practice test and formula sheet are free with no purchase required. The study guide is an optional paid add-on for deeper prep.</p></details>
+        <details><summary>Do I need to pay for the study guide to use the free test?<span>+</span></summary><p>No. The practice test, formula sheet, and full study guide are all free — no purchase required, ever.</p></details>
         <details><summary>How many questions are in the full free test?<span>+</span></summary><p>25 questions delivered by email, each with a worked answer explaining the correct choice.</p></details>
         <details><summary>Does this cover my state's exam?<span>+</span></summary><p>Core NEC theory and calculations are consistent across most jurisdictions. State-specific rules, vendors and time limits vary — always check your state board's current requirements.</p></details>
         <details><summary>Can I retake the practice quiz?<span>+</span></summary><p>Yes — the quiz reshuffles questions each time you restart it.</p></details>
@@ -163,9 +164,9 @@ const ls = site.lemonsqueezy.checkoutUrl;
       </svg>
       <span class="brand-word sm">Amp<b>Ready</b></span>
     </a>
-    <nav><a href="#practice-test">Practice Test</a><a href="#study-guide">Study Guide</a><a href="/guides/">Guides</a><a href="#faq">FAQ</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a></nav>
-    <p>AmpExam is an independent study resource and is not affiliated with any state licensing board or the NFPA. NEC® and National Electrical Code® are registered trademarks of the National Fire Protection Association.</p>
-    <small>{site.legalEntity} · © 2026 AmpExam</small>
+    <nav><a href="#practice-test">Practice Test</a><a href="#study-guide">Study Guide</a><a href="/guides/">Guides</a><a href="#faq">FAQ</a><a href="/about/">About</a><a href="/contact/">Contact</a><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a><a href="/disclosure/">Disclosure</a><a href="/editorial/">Editorial</a></nav>
+    <p>AmpExam is an independent study resource and is not affiliated with any state licensing board or the NFPA. NEC® and National Electrical Code® are registered trademarks of the National Fire Protection Association. <a href="/disclosure/">Read our full disclosure</a>.</p>
+    <small>© 2026 {site.BRAND}</small>
   </footer>
 </Base>
 
