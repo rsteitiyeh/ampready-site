@@ -1,6 +1,6 @@
 ---
 title: "Cost to Become a Journeyman Electrician: Full Breakdown"
-description: ""
+description: "Becoming a journeyman electrician costs $450-$2,500 through a paid apprenticeship, or $4,000-$18,000 if you add trade school first. See the real cost breakdown for each path."
 keyword: "cost to become journeyman electrician"
 publishDate: 2026-07-17
 ---

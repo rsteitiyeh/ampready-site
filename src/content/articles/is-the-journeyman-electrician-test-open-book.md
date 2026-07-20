@@ -1,6 +1,6 @@
 ---
 title: "Is the Journeyman Electrician Test Open Book? What Each State Allows"
-description: ""
+description: "Most journeyman electrician exams are open book for NEC sections, but the rules vary by state — some let you bring your own code book, others hand you one at the test center."
 keyword: "is the journeyman electrician test open book"
 publishDate: 2026-07-17
 ---

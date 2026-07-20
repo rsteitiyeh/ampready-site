@@ -68,22 +68,60 @@ const ga4 = (site.ga4 && site.ga4.measurementId) || '';
     </div>
   )}
 
-  <script>
+  <script is:inline>
     // ---- Cookie consent (interim). Mediavine's CMP replaces this at Journey approval. ----
-    const banner = document.getElementById('cookie-banner');
-    if (banner) {
-      let stored = null;
+    // is:inline is REQUIRED here: a bundled/module script loads async after paint,
+    // creating a race where a visitor can click Accept/Decline before listeners attach
+    // (banner "does nothing"). is:inline runs synchronously in document order instead.
+    (function () {
+      var banner = document.getElementById('cookie-banner');
+      if (!banner) return;
+      var stored = null;
       try { stored = localStorage.getItem('consent-analytics'); } catch (e) {}
       if (!stored) banner.hidden = false;
-      banner.querySelectorAll('[data-consent]').forEach((b) => {
-        b.addEventListener('click', () => {
-          const v = b.getAttribute('data-consent');
-          try { localStorage.setItem('consent-analytics', v); } catch (e) {}
-          if (window.gtag) window.gtag('consent', 'update', { analytics_storage: v });
-          banner.hidden = true;
-        });
+      function answer(v) {
+        try { localStorage.setItem('consent-analytics', v); } catch (e) {}
+        if (typeof window.gtag === 'function') {
+          window.gtag('consent', 'update', {
+            analytics_storage: v,
+            ad_storage: v,
+            ad_user_data: v,
+            ad_personalization: v
+          });
+        }
+        banner.hidden = true;
+      }
+      // Delegated listener (defense-in-depth): works even if buttons are
+      // replaced/re-rendered after this script runs.
+      banner.addEventListener('click', function (e) {
+        var b = e.target.closest('[data-consent]');
+        if (!b) return;
+        answer(b.getAttribute('data-consent'));
       });
-    }
+    })();
+  </script>
+
+  <script is:inline>
+    // ---- GA4 offer-click tracking (ad banners + offer boxes) ----
+    document.addEventListener('click', function (e) {
+      if (typeof gtag !== 'function') return;
+      var el = e.target.closest('a.ad-filled, aside.offer-box a');
+      if (!el || !el.href) return;
+      var slot = el.closest('aside.offer-box') ? 'offer_box' : 'banner';
+      var url;
+      try {
+        var u = new URL(el.href, window.location.href);
+        url = u.hostname + u.pathname;
+      } catch (err) {
+        url = el.href;
+      }
+      gtag('event', 'offer_click', {
+        site: window.location.hostname,
+        slot: slot,
+        target_url: url,
+        page: window.location.pathname
+      });
+    }, true);
   </script>
 
   <script>

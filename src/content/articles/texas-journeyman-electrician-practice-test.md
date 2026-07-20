@@ -1,6 +1,6 @@
 ---
 title: "Texas journeyman electrician practice test: TDLR exam guide with sample questions"
-description: ""
+description: "Texas's journeyman electrician exam is now two timed PSI sections — 59 NEC Knowledge questions and 26 Calculations questions — each needing 70% to pass, effective March 2025."
 keyword: "texas journeyman electrician practice test"
 publishDate: 2026-07-20
 ---
