@@ -35,7 +35,10 @@ const fmt = (d: Date) => d.toLocaleDateString('en-US', { year: 'numeric', month:
   .guides h1 { font-family: var(--headingFont); }
   ul { list-style: none; padding: 0; }
   li { margin: 24px 0; }
-  li a { font-weight: 700; font-size: 20px; }
-  li p { margin: 4px 0; }
-  small { opacity: .7; }
+  li a { font-weight: 700; font-size: 20px; color: var(--accent); font-family: var(--bodyFont); text-decoration: none; }
+  li a:hover { text-decoration: underline; }
+  li p { margin: 4px 0; font-family: var(--bodyFont); }
+  small { opacity: .7; font-family: var(--bodyFont); }
+  body { font-family: var(--bodyFont); }
+  footer, footer * { font-family: var(--bodyFont); }
 </style>
