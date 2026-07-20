@@ -81,5 +81,3 @@ Most state exams test both, and calculation questions often combine multiple cod
 
 **How do I know if a PDF's answer key is wrong?**
 Check the cited article or table number against your own current codebook. If the PDF doesn't cite a specific NEC section for each answer, treat every answer as unverified until you can confirm it yourself.
-
-Written by the AmpExam team. Updated July 15, 2026.

@@ -1,0 +1,37 @@
+---
+/**
+ * Shared site header for non-homepage pages (articles, /guides/).
+ * Markup/classes mirror the homepage header in Landing.astro so the
+ * design stays consistent across the site.
+ */
+---
+<header class="nav">
+  <a class="brand" href="/">
+    <svg width="26" height="26" viewBox="0 0 26 26" aria-hidden="true">
+      <rect x="1.5" y="1.5" width="23" height="23" rx="5" style="fill:none;stroke:#FFD60A;stroke-width:1.6" />
+      <polyline points="5,17 10,17 13,8 17,13 21,13" style="fill:none;stroke:#FFD60A;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round" />
+      <circle cx="21" cy="13" r="1.8" style="fill:#FFB020" />
+    </svg>
+    <span class="brand-word">Amp<b>Ready</b></span>
+  </a>
+  <nav aria-label="Main navigation">
+    <a href="/#practice-test">Practice Test</a><a href="/#study-guide">Study Guide</a><a href="/guides/">Guides</a><a href="/#faq">FAQ</a>
+  </nav>
+  <a class="btn sm" href="/#practice-test">Start Free Practice Test</a>
+</header>
+
+<style>
+  :root{--bg:#0E0F11;--ink:#C2C7CF;--ink-bright:#F2F3F5;--yellow:#FFD60A;--amber:#FFB020}
+  a{color:var(--yellow);text-decoration:none}
+  h1,h2,h3,.brand-word{font-family:Oswald,"Arial Narrow",sans-serif;text-transform:uppercase}
+  .nav{position:sticky;top:0;z-index:50;background:rgba(14,15,17,.9);backdrop-filter:blur(10px);border-bottom:1px solid #1C1F25;display:flex;align-items:center;gap:clamp(14px,3vw,32px);flex-wrap:wrap;padding:10px clamp(16px,4vw,40px)}
+  .brand{display:flex;align-items:center;gap:9px;color:var(--ink-bright)}
+  .brand-word{font-weight:700;font-size:20px;letter-spacing:1.2px}
+  .brand-word b{color:var(--yellow);font-weight:700}
+  .nav nav{display:flex;gap:clamp(12px,2.5vw,26px);flex-wrap:wrap;margin-left:auto;align-items:center}
+  .nav nav a{font-size:14.5px;color:var(--ink)}
+  .btn{display:inline-flex;justify-content:center;align-items:center;font-family:Oswald,"Arial Narrow",sans-serif;font-weight:600;letter-spacing:1.2px;text-transform:uppercase;background:var(--yellow);color:var(--bg);border:none;cursor:pointer;padding:13px 22px;border-radius:6px;font-size:14px;box-shadow:0 0 18px rgba(255,214,10,.22);transition:.18s}
+  .btn:hover{transform:translateY(-2px);box-shadow:0 0 30px rgba(255,214,10,.45);background:#FFDF3D}
+  .btn.sm{padding:8px 14px;font-size:12px}
+  @media(max-width:850px){.nav nav{display:none}}
+</style>

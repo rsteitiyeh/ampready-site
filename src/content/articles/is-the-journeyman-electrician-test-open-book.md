@@ -73,5 +73,3 @@ Usually not. Texas and Florida both explicitly bar the NEC Handbook (the version
 
 **What happens if my code book doesn't meet the state's rules on exam day?**
 In Texas, a candidate who shows up with a noncompliant book (wrong binding, DIY tabs, or the Handbook) can test without it, remove the noncompliant tabs on the spot, or forfeit the exam fee and reschedule with a compliant book. Other states apply similar consequences, so check your bulletin's reference rules a few days before your appointment, not the morning of.
-
-Written by the AmpExam team. Updated July 15, 2026.

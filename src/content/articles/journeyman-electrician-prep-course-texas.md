@@ -71,5 +71,3 @@ Yes. TDLR and PSI score the NEC Knowledge and Calculations portions separately, 
 
 **Do I need a separate calculator for the Calculations portion?**
 You need your own calculator, but it must be silent, battery-operated, non-printing, and without an alphabetic keyboard; TDLR and PSI both bar programmable or text-capable calculators from the test room. A basic scientific calculator you've already practiced with is safer than borrowing an unfamiliar one on exam day.
-
-Written by the AmpExam team. Updated July 15, 2026.
