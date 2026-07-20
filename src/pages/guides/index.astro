@@ -31,14 +31,14 @@ const fmt = (d: Date) => d.toLocaleDateString('en-US', { year: 'numeric', month:
 
 <style define:vars={{ bg: site.theme.bg, ink: site.theme.ink, accent: site.theme.accent, headingFont: site.theme.headingFont, bodyFont: site.theme.bodyFont }} is:global>
   .ad{height:90px;width:min(970px,calc(100% - 32px));margin:27px auto;display:grid;place-items:center;border:1px dashed #2E333C;border-radius:8px;color:#6F7680;font:11px ui-monospace,Menlo,monospace;letter-spacing:1.8px;text-transform:uppercase}
-  .guides { max-width: 760px; margin: 0 auto; padding: 40px 20px 80px; background: var(--bg); color: var(--ink); font-family: var(--bodyFont); }
+  .guides { max-width: 760px; margin: 0 auto; padding: 40px 20px 80px; background: var(--bg); color: var(--ink); font-family: var(--bodyFont, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif); }
   .guides h1 { font-family: var(--headingFont); }
   ul { list-style: none; padding: 0; }
   li { margin: 24px 0; }
-  li a { font-weight: 700; font-size: 20px; color: var(--accent); font-family: var(--bodyFont); text-decoration: none; }
+  li a { font-weight: 700; font-size: 20px; color: var(--accent); font-family: var(--bodyFont, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif); text-decoration: none; }
   li a:hover { text-decoration: underline; }
-  li p { margin: 4px 0; font-family: var(--bodyFont); }
-  small { opacity: .7; font-family: var(--bodyFont); }
-  body { font-family: var(--bodyFont); }
-  footer, footer * { font-family: var(--bodyFont); }
+  li p { margin: 4px 0; font-family: var(--bodyFont, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif); }
+  small { opacity: .7; font-family: var(--bodyFont, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif); }
+  body { font-family: var(--bodyFont, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif); }
+  footer, footer * { font-family: var(--bodyFont, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif); }
 </style>
