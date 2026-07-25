@@ -148,7 +148,7 @@
       "q": "Before working on a circuit believed to be de-energized, what should always be done first?",
       "options": ["Assume it is safe if the breaker is labeled off", "Verify the absence of voltage with a properly tested meter", "Ask a coworker if it feels safe", "Skip verification if it was off yesterday"],
       "answer": 1,
-      "explanation": "Best practice (and most safety programs) require testing a meter on a known live source, verifying the circuit is de-energized, then re-testing the meter -- never assume based on labels alone.",
+      "explanation": "Best practice (and most safety programs) require testing a meter on a known live source, verifying the circuit is de-energized, then re-testing the meter. Never assume based on labels alone.",
       "category": "safety"
     },
     {
@@ -176,7 +176,7 @@
       "q": "What is a ground-fault circuit interrupter (GFCI) primarily designed to protect against?",
       "options": ["Overloaded circuits", "Short circuits between hot and neutral", "Shock hazards from current leaking to ground through a person", "Voltage spikes from lightning"],
       "answer": 2,
-      "explanation": "A GFCI monitors for a small imbalance between hot and neutral current, which can indicate current is leaking to ground -- potentially through a person -- and quickly interrupts the circuit to prevent shock.",
+      "explanation": "A GFCI monitors for a small imbalance between hot and neutral current, which can indicate current is leaking to ground (potentially through a person) and quickly interrupts the circuit to prevent shock.",
       "category": "safety"
     }
   ]
