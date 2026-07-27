@@ -1,6 +1,6 @@
 ---
 title: "Journeyman Electrician Exam Prep Course: What to Look For, What to Skip"
-description: ""
+description: "A good course matches your state's exam vendor and NEC edition, and drills voltage-drop and conduit-fill calculations."
 keyword: "journeyman electrician exam prep course"
 publishDate: 2026-07-24
 ---

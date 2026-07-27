@@ -1,6 +1,6 @@
 ---
 title: "How Much Do Journeyman Electricians Make a Year?"
-description: ""
+description: "BLS puts electrician pay at a $63,190 median and $71,490 mean, though union scale and overtime push many journeymen higher."
 keyword: "how much do journeyman electricians make"
 publishDate: 2026-07-20
 ---
