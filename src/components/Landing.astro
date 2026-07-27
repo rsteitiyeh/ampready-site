@@ -6,9 +6,16 @@
  * Practice-quiz section mounts the shared Tool engine (Quiz.astro) with an AmpExam skin below.
  */
 import site from '../../site.config.json';
+import { getCollection } from 'astro:content';
 import { organization, website } from '../lib/seo.mjs';
 import Base from '../layouts/Base.astro';
 import Tool from './Tool.astro';
+// FIX 2026-07-27: crawlable homepage links to every article. Google finds pages
+// through links, not sitemaps ("a sitemap is merely a hint"). Before this, all
+// articles sat at crawl depth 2 behind /guides/ and 83% were never fetched.
+const homeGuides = (await getCollection('articles', ({ data }) => !data.draft))
+  .sort((a, b) => +(b.data.updatedDate ?? b.data.publishDate) - +(a.data.updatedDate ?? a.data.publishDate))
+  .slice(0, 30);
 ---
 <Base
   title="Free Journeyman Electrician Practice Test | AmpExam"
@@ -54,7 +61,7 @@ import Tool from './Tool.astro';
         <input id="hero-email" name="fields[email]" type="email" required placeholder="you@example.com" />
         <button>Send Me the Free Practice Test</button>
       </form>
-      <p class="micro">No spam. Unsubscribe anytime.</p>
+      <p class="micro">We guarantee 100% privacy. Your information will not be shared.</p>
     </section>
 
     <section class="trust">
@@ -88,7 +95,7 @@ import Tool from './Tool.astro';
           <input id="magnet-email" name="fields[email]" type="email" required placeholder="you@example.com" />
           <button>Send Me the Formula Sheet</button>
         </form>
-        <p class="micro">No spam. Unsubscribe anytime.</p>
+        <p class="micro">We guarantee 100% privacy. Your information will not be shared.</p>
       </div>
     </section>
 
@@ -112,7 +119,7 @@ import Tool from './Tool.astro';
             <input id="guide-email" name="fields[email]" type="email" required placeholder="you@example.com" />
             <button type="submit">Send Me the Free Study Guide</button>
           </form>
-          <p class="price-small">No spam. Unsubscribe anytime.</p>
+          <p class="price-small">We guarantee 100% privacy. Your information will not be shared.</p>
         </div>
       </div>
     </section>
@@ -124,7 +131,7 @@ import Tool from './Tool.astro';
       <Tool />
       <div class="quiz-cta">
         <a class="btn" href="#cheat-sheet">Get the Free Formula Sheet</a>
-        <p class="micro">25 questions in the full test · free by email · no spam</p>
+        <p class="micro">25 questions in the full test · free by email · we guarantee 100% privacy</p>
       </div>
     </section>
     <a href="https://hop.clickbank.net/?affiliate=soloaiclub&vendor=diyhomeenergy&tid=ampexam_banner" rel="sponsored nofollow noopener" target="_blank" class="ad ad-filled" style="display:flex;align-items:center;justify-content:space-between;gap:16px;width:min(970px,calc(100% - 32px));margin:27px auto;padding:14px 22px;border-radius:8px;background:linear-gradient(135deg,var(--navy,#12233b) 0%,var(--ink2,#1f2937) 100%);color:#fff;text-decoration:none;box-shadow:0 2px 10px rgba(0,0,0,.12);flex-wrap:wrap"><span style="display:flex;flex-direction:column;gap:2px;min-width:0"><span style="font:700 9px ui-monospace,monospace;letter-spacing:1.6px;text-transform:uppercase;opacity:.65">Sponsored</span><span style="font:700 15px 'Inter',sans-serif">DIY Home Energy Course</span><span style="font:400 12.5px 'Inter',sans-serif;opacity:.85">Build your own solar power setup: step-by-step video course for hands-on people.</span></span><span style="flex:0 0 auto;padding:10px 18px;border-radius:5px;background:var(--gold,#c9a24b);color:#12233b;font:700 13px 'Inter',sans-serif;white-space:nowrap">Watch the overview →</span></a>
@@ -159,10 +166,39 @@ import Tool from './Tool.astro';
         <input id="final-email" name="fields[email]" type="email" required placeholder="you@example.com" />
         <button>Send Me the Free Practice Test</button>
       </form>
-      <p class="micro">No spam. Unsubscribe anytime.</p>
+      <p class="micro">We guarantee 100% privacy. Your information will not be shared.</p>
     </section>
   </main>
 
+
+  <section id="all-guides" class="gs-sec" style="--gs-ink:#C2C7CF;--gs-bg:#0E0F11;--gs-accent:#FFD60A;--gs-rule:rgba(255,255,255,.16)">
+    <div class="gs-inner">
+      <p class="gs-kicker">Free guides</p>
+      <h2 class="gs-h2">Every AmpExam guide</h2>
+      <ul class="gs-list">
+        {homeGuides.map((a) => (
+          <li class="gs-item">
+            <a class="gs-link" href={`/${a.id}/`}>{a.data.title}</a>
+            {a.data.description && <span class="gs-desc">{a.data.description}</span>}
+          </li>
+        ))}
+      </ul>
+      <a class="gs-more" href="/guides/">Browse all guides</a>
+    </div>
+  </section>
+  <style>
+    .gs-sec{background:var(--gs-bg);color:var(--gs-ink);padding:clamp(46px,7vw,82px) 20px}
+    .gs-inner{max-width:980px;margin:0 auto}
+    .gs-kicker{margin:0 0 6px;font:700 11px ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.16em;text-transform:uppercase;opacity:.72}
+    .gs-h2{margin:0 0 20px;font-size:clamp(23px,3.3vw,33px);line-height:1.18;letter-spacing:-.02em;color:var(--gs-ink)}
+    .gs-list{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(298px,1fr));gap:0 30px}
+    .gs-item{padding:12px 0;border-bottom:1px solid var(--gs-rule)}
+    .gs-link{display:block;font:650 16px/1.34 inherit;color:var(--gs-ink);text-decoration:none}
+    .gs-link:hover,.gs-link:focus-visible{text-decoration:underline;text-decoration-color:var(--gs-accent);text-decoration-thickness:2px}
+    .gs-desc{display:block;margin-top:3px;font:400 13.5px/1.5 inherit;opacity:.75}
+    .gs-more{display:inline-block;margin-top:24px;font:700 14.5px/1 inherit;color:var(--gs-ink);text-decoration:none;border-bottom:2px solid var(--gs-accent);padding-bottom:3px}
+    .gs-more:hover{opacity:.8}
+  </style>
   <footer>
     <a class="brand" href="#top">
       <svg width="20" height="20" viewBox="0 0 26 26" aria-hidden="true">
