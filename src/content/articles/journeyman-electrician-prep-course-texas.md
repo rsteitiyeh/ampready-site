@@ -1,5 +1,5 @@
 ---
-title: "Journeyman Electrician Prep Course Texas: What Gets You Through TDLR"
+title: "Journeyman Electrician Prep Course Texas: Passing TDLR"
 description: "A Texas journeyman electrician prep course should drill fast NEC lookups and calculator-free math for the TDLR/PSI exam's two-section, split-timed format specifically."
 keyword: "journeyman electrician prep course texas"
 publishDate: 2026-07-19

@@ -1,5 +1,5 @@
 ---
-title: "Journeyman Electrician Practice Test: Free Questions & Prep Guide"
+title: "Journeyman Electrician Practice Test: Free Prep Guide"
 description: ""
 keyword: "journeyman electrician practice test"
 publishDate: 2026-07-28
