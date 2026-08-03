@@ -1,6 +1,6 @@
 ---
 title: "Journeyman Electrician Practice Test: Free Prep Guide"
-description: ""
+description: "A journeyman electrician practice test mirrors the real exam: NEC-code-book-based, timed, with 60 to 100 questions and a passing score of 70 to 75 percent."
 keyword: "journeyman electrician practice test"
 publishDate: 2026-07-28
 ---
