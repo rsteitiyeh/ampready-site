@@ -16,7 +16,7 @@ const fmt = (d: Date) => d.toLocaleDateString('en-US', { year: 'numeric', month:
     <ul>
       {articles.map((a) => (
         <li>
-          <a href={`/${a.id}/`}>{a.data.title}</a>
+          <h2><a href={`/${a.id}/`}>{a.data.title}</a></h2>
           <p>{a.data.description}</p>
           <small>{fmt(a.data.updatedDate ?? a.data.publishDate)}</small>
         </li>
@@ -40,4 +40,5 @@ const fmt = (d: Date) => d.toLocaleDateString('en-US', { year: 'numeric', month:
   small { opacity: .7; font-family: var(--bodyFont, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif); }
   body { font-family: var(--bodyFont, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif); }
   footer, footer * { font-family: var(--bodyFont, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif); }
+  .guides li h2 { margin: 0; }
 </style>
