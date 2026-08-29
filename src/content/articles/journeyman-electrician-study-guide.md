@@ -56,5 +56,3 @@ No, and trying to is a poor use of study time. You need to know which table answ
 Yes, in every state, though retake policies vary. Some states cap attempts within a licensing period (Michigan limits journeyman candidates to 2 attempts within 1 year before requiring reapplication), while others like Texas allow retakes as needed within your eligibility window, with a retake fee each time.
 
 If you want to check your current speed before committing to a test date, AmpExam's free practice quiz tool runs full timed sets, and the free study guide breaks study time down by your state's actual content weighting instead of a generic national outline.
-
-<!-- QA tell-audit: no em/en dashes; cut a "conclusion" style closer in favor of a direct recommendation; kept the two-table-mixup detail as a repeated, specific operator observation instead of vague "many people struggle"; varied sentence length across the study-plan section. -->

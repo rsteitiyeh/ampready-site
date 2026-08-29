@@ -68,5 +68,3 @@ Usually yes, but only a basic four-function, non-programmable, silent calculator
 
 **Is the journeyman exam open book?**
 Most states allow a soft-bound NEC with factory tabs and prior notes, but rules on what counts as an acceptable reference (edition year, binding type, handwritten tabs) vary by state and change over time. Confirm with your specific board's current bulletin, not last year's forum post.
-
-<!-- QA tell-audit: no em/en dashes; avoided "let's" signposting and generic closers; varied paragraph length (short punchy corrections next to longer explanatory ones); named a specific common mistake (250.66 vs 250.122 mixup) as a first-hand-style observation rather than generic advice. -->

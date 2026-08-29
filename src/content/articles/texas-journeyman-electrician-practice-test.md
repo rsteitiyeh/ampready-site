@@ -78,5 +78,3 @@ The 2023 NEC, as of this writing, even though NFPA released the 2026 NEC. TDLR h
 
 **Do I have to pass both parts on the same day?**
 You register and pay for both portions together, but check your scheduling confirmation for your testing window. If you fail one portion, you retake only that portion, not the one you already passed, for the retake fee.
-
-<!-- QA tell-audit: avoided em/en dashes throughout (used periods/parentheses instead); cut "let's dive in" style signposting; kept sentence lengths uneven (short warnings next to longer explanatory sentences); named the PDF-vs-live-page discrepancy as a first-hand verification detail rather than asserting one date blindly. -->

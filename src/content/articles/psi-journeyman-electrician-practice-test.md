@@ -60,5 +60,3 @@ In most PSI programs, arriving after your scheduled start time means you are not
 
 **How soon do I get my score after a PSI exam?**
 Immediately in most cases. Your pass/fail result appears on screen right after you finish, typically followed by a printed report at the test center or an emailed score report, along with a diagnostic breakdown by content area if you didn't pass.
-
-<!-- QA tell-audit: no em/en dashes; kept the "PSI is the vendor, not the rule-maker" framing as the one clear original point instead of restating it three times; used a real state comparison (Michigan vs Texas) as concrete evidence rather than a vague "it varies by state" claim; ended on a direct answer, not a vibe closer. -->

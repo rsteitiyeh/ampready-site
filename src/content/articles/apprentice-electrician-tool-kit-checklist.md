@@ -69,5 +69,3 @@ Your voltage tester or multimeter. A tester that fails to detect voltage, or tha
 
 **Do I need a tool belt or a bag?**
 Either works for a first-year kit; a bag is usually cheaper and fine for someone still learning to organize a loadout. Move to a belt setup once you know which tools you actually reach for most on a given task.
-
-<!-- QA tell-audit: no em/en dashes; cut a generic "safety first" closer in favor of a specific hazard explanation; avoided bolded-header bullet fluff by using a real table for pricing instead; kept price ranges honest ("roughly," "typically") rather than false precision. -->

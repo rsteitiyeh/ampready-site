@@ -67,5 +67,3 @@ Both are legitimate options. Online classes offer flexibility around a work sche
 
 **Does any state approve or certify journeyman exam-prep courses?**
 No. States publish approved-provider lists for continuing education used in license renewal, a separate program from original exam prep. No state maintains an approved list for exam-prep courses themselves, so "state-approved" marketing claims on a prep course should be verified directly, not taken at face value.
-
-<!-- QA tell-audit: removed a "let's break it down" signpost, cut a bolded-header bullet list in favor of a real comparison table, replaced "industry experts" with named sourced providers, confirmed zero em/en dashes on final scan. -->

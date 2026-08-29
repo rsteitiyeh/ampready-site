@@ -86,5 +86,3 @@ Most programs require you to be at least 18, hold a high school diploma or GED, 
 Completing the on-the-job hours and classroom requirements makes you eligible to sit for your state's journeyman exam, but you still have to pass that exam separately. The apprenticeship prepares you for it; it doesn't substitute for it.
 
 Bottom line: pick a registered program, confirm its actual hours and classroom requirements before you sign anything, and expect your pay to climb on a fixed schedule tied to hours and grades, not a yearly review. The credential at the end holds its value because most of the industry's hiring need comes from replacing electricians who leave, not from a shrinking trade.
-
-<!-- humanizer tell-audit: draft opened with "in today's competitive job market" framing and used "boasts" to describe program size; cut both, replaced the union program description with a specific IBEW Local 60 wage figure instead of a vague "good benefits" claim, and broke up a run of same-length sentences in the day-to-day section. Zero em or en dashes in the final. -->

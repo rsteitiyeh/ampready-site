@@ -65,5 +65,3 @@ Calculation questions under time pressure, based on how consistently that patter
 
 **Can I skip a question and come back to it?**
 Most PSI-delivered exams let you flag a question and return to it later within the same portion, as long as your time for that portion hasn't run out. Check your specific state's candidate bulletin, since this detail is set by the testing vendor's software configuration for that program.
-
-<!-- QA tell-audit: no em/en dashes; replaced a rule-of-three temptation in the intro with a plain four-item list instead of forcing three; kept the 250.66/250.122 distractor detail as a specific recurring observation rather than vague "some people mix these up"; varied sentence rhythm in the distractor section. -->

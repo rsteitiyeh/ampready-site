@@ -73,5 +73,3 @@ Usually yes, most states run open-book exams, but tabbing and marking rules are 
 
 **Does every state test a business and law section on the master exam?**
 No. Texas doesn't. Florida, North Carolina, and Virginia each build in some form of business, law, or regulatory content. Confirm which category your state falls into before you plan your study time.
-
-<!-- QA tell-audit: drafted, then rewrote to cut "delve/crucial/vibrant" vocabulary, removed a rule-of-three closer, replaced two "-ing" fake-depth endings, confirmed zero em/en dashes on final scan. -->

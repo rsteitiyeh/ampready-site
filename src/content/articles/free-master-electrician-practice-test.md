@@ -119,5 +119,3 @@ No. Licensing structure varies by state, and a few, most notably New York and Il
 Bottom line: a free practice test is a good first step, not a full substitute for a timed, full-length mock exam that matches your state's real format. Know your state's item counts, timing, and passing score before you schedule anything, and use the worked questions above to find out whether calculations or code knowledge is your weaker area.
 
 We're not affiliated with TDLR, PSI, or any state licensing board. Confirm your own state's exam format and fees on your board's official page before you register.
-
-<!-- humanizer tell-audit: draft leaned on "important to note" and stacked three examples in a row in the requirements section; cut the filler phrase, varied sentence length in the cost section, and swapped one triad for a two-item list. Zero em or en dashes in the final. -->

@@ -60,5 +60,3 @@ Confirmed pricing we found ranges from about $225 for an in-person 8-week chapte
 
 **Do master electrician classes cover business and law content?**
 Only some do, and only if your state's exam requires it. Confirm directly with the provider which state's exam structure the course is built around before assuming it covers what your state tests.
-
-<!-- QA tell-audit: cut a "whether you're just starting out or..." false-choice opener, removed an em dash from the cost table intro, replaced "top-rated courses" with named sourced providers and prices, confirmed zero em/en dashes on final scan. -->

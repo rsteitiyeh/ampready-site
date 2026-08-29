@@ -62,5 +62,3 @@ Nine enforceable chapters covering general rules, wiring methods, equipment, spe
 
 **How much does a new NEC code book cost?**
 NFPA's current softbound 2026 NEC lists for $169, or $152.10 for NFPA members. Buy the specific edition your state's exam tests, not automatically the newest one available.
-
-<!-- QA tell-audit: removed a "navigating the world of the NEC" opener, cut a vague "many candidates struggle with" line and replaced it with a sourced state comparison, confirmed zero em/en dashes on final scan. -->

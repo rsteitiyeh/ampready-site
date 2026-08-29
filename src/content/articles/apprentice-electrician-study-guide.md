@@ -71,5 +71,3 @@ Through accumulated on-the-job-training hours and related-instruction grades, no
 
 **How long does an electrical apprenticeship take?**
 A standard registered apprenticeship runs about 4 years and roughly 8,000 hours of on-the-job training, plus related classroom instruction, per federal apprenticeship standards. Some union programs run longer depending on the local sponsor.
-
-<!-- QA tell-audit: removed a "the journey begins" opener, cut a negative-parallelism sentence ("it's not just about hours, it's about..."), replaced "many programs" with named sourced examples, confirmed zero em/en dashes on final scan. -->

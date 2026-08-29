@@ -69,5 +69,3 @@ DC renews trade licenses on a 2-year cycle expiring November 30 of odd-numbered 
 
 **Which state has the highest CE requirement for electrician license renewal?**
 Of the states checked here, California has the heaviest load: 32 hours of continuing education per 3-year cycle, plus 2,000 hours of verified work experience, far above Virginia's 3-hour minimum for the same cycle length.
-
-<!-- QA tell-audit: cut a "the world of licensing" opener, removed an em dash from an early draft comparison sentence, replaced a vague "experts recommend" with named board sources, confirmed zero em/en dashes on final scan. -->

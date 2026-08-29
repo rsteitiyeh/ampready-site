@@ -60,5 +60,3 @@ A focused practice-question tool close to your test date, rather than a full cou
 
 **Does my union apprenticeship program already include exam prep?**
 Often, yes. Most JATC-run programs build code and theory instruction into the required curriculum. Check with your local training coordinator before buying an outside course that might duplicate what you're already getting.
-
-<!-- QA tell-audit: no em/en dashes; avoided inventing specific course prices I hadn't verified, used honest "check current pricing" language instead; cut a "in conclusion" closer for a direct FAQ-driven ending; varied sentence length in the comparison sections. -->
