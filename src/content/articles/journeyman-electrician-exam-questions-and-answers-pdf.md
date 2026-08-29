@@ -1,8 +1,8 @@
 ---
-title: "Journeyman Electrician Exam Questions and Answers PDF"
-description: "A useful journeyman electrician exam Q&A PDF cites specific NEC articles and explains the reasoning. See 8 original sample questions verified against 2023 NEC concepts."
-keyword: "journeyman electrician exam questions and answers pdf"
-publishDate: 2026-07-17
+title: Journeyman Electrician Exam Questions and Answers PDF
+description: A useful journeyman electrician exam Q&A PDF cites specific NEC articles and explains the reasoning. See 8 original sample questions verified against 2023 NEC concepts.
+keyword: journeyman electrician exam questions and answers pdf
+publishDate: '2026-07-17'
 ---
 
 A journeyman electrician exam questions and answers PDF is only useful if it cites specific NEC articles, explains the reasoning behind each answer, and matches your state's current code edition. Below are 8 original sample questions we wrote and verified against 2023 NEC concepts, covering code lookups and calculations, with full explanations for each.

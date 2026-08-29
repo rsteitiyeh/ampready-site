@@ -1,8 +1,8 @@
 ---
-title: "Journeyman Electrician Code Book: NEC Guide"
-description: "Your journeyman electrician code book is the National Electrical Code, NFPA 70, and the edition your exam tests almost certainly isn't the newest one"
-keyword: "journeyman electrician code book"
-publishDate: 2026-08-25
+title: 'Journeyman Electrician Code Book: NEC Guide'
+description: Your journeyman electrician code book is the National Electrical Code, NFPA 70, and the edition your exam tests almost certainly isn't the newest one
+keyword: journeyman electrician code book
+publishDate: '2026-08-25'
 ---
 
 Your journeyman electrician code book is the National Electrical Code, NFPA 70, and the edition your exam tests almost certainly isn't the newest one available. NFPA published the 2026 NEC, but most states haven't caught up to it yet: Texas tests the 2023 NEC, and Washington and North Carolina both still test the 2020 NEC as of this writing. Buying the newest edition off the shelf is a common, avoidable mistake.

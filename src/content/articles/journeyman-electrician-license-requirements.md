@@ -1,8 +1,8 @@
 ---
-title: "Journeyman Electrician License Requirements 2026"
-description: "Journeyman electrician license requirements vary by state; compare verified experience, exam fees, cut scores, and statewide licensing in 2026."
-keyword: "journeyman electrician license requirements"
-publishDate: 2026-08-25
+title: Journeyman Electrician License Requirements 2026
+description: Journeyman electrician license requirements vary by state; compare verified experience, exam fees, cut scores, and statewide licensing in 2026.
+keyword: journeyman electrician license requirements
+publishDate: '2026-08-25'
 ---
 
 Journeyman electrician license requirements are not nationally uniform: some states issue a statewide journey-level credential, while others leave individual licensing to cities or regulate only electrical contractors. The [Texas regulator](https://www.tdlr.texas.gov/electricians/apply/individuals/journeyman-electrician.htm) documents an 8,000-hour route and a [70 percent exam cut score](https://www.tdlr.texas.gov/electricians/pdf/Candidate-Information-Bulletin.pdf), but those figures are not universal. The tables below quote only figures published by regulators or official exam administrators.

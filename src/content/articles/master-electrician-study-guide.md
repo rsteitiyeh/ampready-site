@@ -1,8 +1,8 @@
 ---
-title: "Master Electrician Study Guide: How to Prepare"
-description: "Studying for the master electrician exam means treating it as two separate tests, not one. Most states split the exam into a code-knowledge portion and a"
-keyword: "master electrician study guide"
-publishDate: 2026-08-16
+title: 'Master Electrician Study Guide: How to Prepare'
+description: Studying for the master electrician exam means treating it as two separate tests, not one. Most states split the exam into a code-knowledge portion and a
+keyword: master electrician study guide
+publishDate: '2026-08-16'
 ---
 
 Studying for the master electrician exam means treating it as two separate tests, not one. Most states split the exam into a code-knowledge portion and a calculations portion, each scored and passed independently, so your study plan needs a code-navigation track and a math track that get built and practiced separately, not blended into one generic review.

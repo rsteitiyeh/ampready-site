@@ -1,8 +1,8 @@
 ---
-title: "Apprentice Electrician Study Guide for New Trainees"
-description: "An apprentice electrician study guide, at this stage, isn't exam-cram material. There's no state licensing test for apprentices. What matters is passing"
-keyword: "apprentice electrician study guide"
-publishDate: 2026-08-25
+title: Apprentice Electrician Study Guide for New Trainees
+description: An apprentice electrician study guide, at this stage, isn't exam-cram material. There's no state licensing test for apprentices. What matters is passing
+keyword: apprentice electrician study guide
+publishDate: '2026-08-25'
 ---
 
 An apprentice electrician study guide, at this stage, isn't exam-cram material. There's no state licensing test for apprentices. What matters is passing an entry aptitude test if your program requires one, knowing basic circuit theory (Ohm's law, series and parallel circuits) before your first classroom module, and understanding that your progress gets tracked through logged hours and instruction grades, not a single pass/fail exam.

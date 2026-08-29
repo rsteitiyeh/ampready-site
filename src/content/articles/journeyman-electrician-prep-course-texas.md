@@ -1,8 +1,8 @@
 ---
-title: "Journeyman Electrician Prep Course Texas: Passing TDLR"
-description: "A Texas journeyman electrician prep course should drill fast NEC lookups and calculator-free math for the TDLR/PSI exam's two-section, split-timed format specifically."
-keyword: "journeyman electrician prep course texas"
-publishDate: 2026-07-19
+title: 'Journeyman Electrician Prep Course Texas: Passing TDLR'
+description: A Texas journeyman electrician prep course should drill fast NEC lookups and calculator-free math for the TDLR/PSI exam's two-section, split-timed format specifically.
+keyword: journeyman electrician prep course texas
+publishDate: '2026-07-19'
 ---
 
 A journeyman electrician prep course in Texas only works if it drills the two skills the TDLR/PSI exam actually tests: fast NEC code lookups under a strict time limit, and electrical calculations done without a calculator app. Generic multi-state courses that skip Texas's split exam format and its NEC-only reference rule waste study hours you don't have.

@@ -1,8 +1,8 @@
 ---
-title: "Master Electrician Classes: Online vs In-Person"
-description: "Master electrician classes split into in-person chapter courses run by trade associations and online, self-paced courses you buy once and work through on"
-keyword: "master electrician classes"
-publishDate: 2026-08-19
+title: 'Master Electrician Classes: Online vs In-Person'
+description: Master electrician classes split into in-person chapter courses run by trade associations and online, self-paced courses you buy once and work through on
+keyword: master electrician classes
+publishDate: '2026-08-19'
 ---
 
 Master electrician classes split into in-person chapter courses run by trade associations and online, self-paced courses you buy once and work through on your own schedule. The real difference isn't quality, it's whether the course bundles in business and law content your state might test, and whether it's built around your specific exam vendor and NEC edition.

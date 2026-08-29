@@ -1,8 +1,8 @@
 ---
-title: "How to Choose Journeyman Electrician Classes"
-description: "\\"Journeyman electrician classes\\" means two different things depending on where you are in the process. If you haven't started an apprenticeship yet, it"
-keyword: "journeyman electrician classes"
-publishDate: 2026-08-19
+title: How to Choose Journeyman Electrician Classes
+description: '"Journeyman electrician classes" means two different things depending on where you are in the process. If you haven''t started an apprenticeship yet, it'
+keyword: journeyman electrician classes
+publishDate: '2026-08-19'
 ---
 
 "Journeyman electrician classes" means two different things depending on where you are in the process. If you haven't started an apprenticeship yet, it means the related classroom instruction built into a registered apprenticeship program. If you've already logged your hours and are getting ready for the state exam, it means a standalone exam-prep course. Picking the wrong one wastes money and time, so figure out which stage you're in before you compare options.

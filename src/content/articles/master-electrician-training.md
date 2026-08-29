@@ -1,8 +1,8 @@
 ---
-title: "Master Electrician Training: The Journeyman-to-Master Path"
-description: "Master licensing runs on logged field hours, not classroom time. Texas requires 2 years and 12,000 total hours on the job."
-keyword: "master electrician training"
-publishDate: 2026-07-25
+title: 'Master Electrician Training: The Journeyman-to-Master Path'
+description: Master licensing runs on logged field hours, not classroom time. Texas requires 2 years and 12,000 total hours on the job.
+keyword: master electrician training
+publishDate: '2026-07-25'
 ---
 
 Master electrician training is mostly a matter of logged field experience as a licensed journeyman, not classroom hours. States that issue a master license typically require 2 or more years working as a journeyman on top of your original apprenticeship, plus passing a master-level exam that adds business, code application, and design calculations beyond the journeyman test.

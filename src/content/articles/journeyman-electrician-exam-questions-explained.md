@@ -1,8 +1,8 @@
 ---
-title: "Journeyman Electrician Exam Questions: Types You'll See"
-description: "Journeyman electrician exam questions fall into five types: code lookups, calculations, scenarios, definitions, and NEC article-identification questions."
-keyword: "journeyman electrician exam questions"
-publishDate: 2026-08-09
+title: 'Journeyman Electrician Exam Questions: Types You''ll See'
+description: 'Journeyman electrician exam questions fall into five types: code lookups, calculations, scenarios, definitions, and NEC article-identification questions.'
+keyword: journeyman electrician exam questions
+publishDate: '2026-08-09'
 ---
 
 Journeyman electrician exam questions fall into five recurring types: direct code lookups, calculations, scenario/application questions, definitions, and "which article applies" questions that test whether you know where a topic lives in the NEC before you can even start answering it. Every state exam mixes these differently, but the categories themselves are consistent nationwide because they all draw from the same code book.

@@ -1,8 +1,8 @@
 ---
-title: "Journeyman Electrician License Renewal: State Guide"
-description: "Journeyman electrician license renewal rules differ on three things: how often you renew, what it costs, and whether you owe continuing education hours"
-keyword: "journeyman electrician license renewal"
-publishDate: 2026-08-18
+title: 'Journeyman Electrician License Renewal: State Guide'
+description: 'Journeyman electrician license renewal rules differ on three things: how often you renew, what it costs, and whether you owe continuing education hours'
+keyword: journeyman electrician license renewal
+publishDate: '2026-08-18'
 ---
 
 Journeyman electrician license renewal rules differ on three things: how often you renew, what it costs, and whether you owe continuing education hours. Texas renews annually and requires 4 hours of CE. West Virginia also renews annually but requires no CE at all. Maryland and Virginia run 2 and 3-year cycles with modest CE loads, and California requires the heaviest CE burden of any state checked: 32 hours per 3-year cycle.

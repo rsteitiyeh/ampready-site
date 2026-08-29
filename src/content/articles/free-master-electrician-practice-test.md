@@ -1,8 +1,8 @@
 ---
-title: "Free Master Electrician Practice Test Guide"
-description: "A free master electrician practice test mirrors the real exam's two-part format. See how it's scored, what it costs, and 10 worked sample questions."
-keyword: "free master electrician practice test"
-publishDate: 2026-07-14
+title: Free Master Electrician Practice Test Guide
+description: A free master electrician practice test mirrors the real exam's two-part format. See how it's scored, what it costs, and 10 worked sample questions.
+keyword: free master electrician practice test
+publishDate: '2026-07-14'
 ---
 
 A free master electrician practice test gives you real NEC knowledge and calculations questions in the same two-part format most state boards use: code knowledge first, then load and conductor calculations. Take one before you spend a dollar on anything else. It shows you exactly where your gaps are before exam day costs you a real fee and a scheduling headache.

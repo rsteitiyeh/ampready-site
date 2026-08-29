@@ -1,8 +1,8 @@
 ---
-title: "Journeyman Electrician Exam Prep Course: What to Look For"
-description: "A good course matches your state's exam vendor and NEC edition, and drills voltage-drop and conduit-fill calculations."
-keyword: "journeyman electrician exam prep course"
-publishDate: 2026-07-24
+title: 'Journeyman Electrician Exam Prep Course: What to Look For'
+description: A good course matches your state's exam vendor and NEC edition, and drills voltage-drop and conduit-fill calculations.
+keyword: journeyman electrician exam prep course
+publishDate: '2026-07-24'
 ---
 
 A good journeyman electrician exam prep course matches your state's actual exam vendor and format, drills NEC code lookups under time pressure, and includes a full set of calculations practice (box fill, conduit fill, voltage drop, load calc). Skip courses built on an outdated NEC edition or ones that promise a guaranteed pass without giving you real timed practice tests.

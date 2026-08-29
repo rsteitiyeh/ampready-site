@@ -1,8 +1,8 @@
 ---
-title: "Texas journeyman electrician practice test: TDLR exam guide"
-description: "Texas's journeyman electrician exam is now two timed PSI sections — 59 NEC Knowledge questions and 26 Calculations questions — each needing 70% to pass, effective March 2025."
-keyword: "texas journeyman electrician practice test"
-publishDate: 2026-07-20
+title: 'Texas journeyman electrician practice test: TDLR exam guide'
+description: Texas's journeyman electrician exam is now two timed PSI sections — 59 NEC Knowledge questions and 26 Calculations questions — each needing 70% to pass, effective March 2025.
+keyword: texas journeyman electrician practice test
+publishDate: '2026-07-20'
 ---
 
 The Texas journeyman electrician exam is split into two timed portions administered by PSI on behalf of TDLR: a 59-question NEC Knowledge section (130 minutes) and a 26-question Calculations section (110 minutes). You need 70% or better on each portion to pass, and the exam is open book against the 2023 NEC. The change took effect March 11, 2025.

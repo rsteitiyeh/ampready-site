@@ -1,8 +1,8 @@
 ---
-title: "How Much Do Journeyman Electricians Make a Year?"
-description: "BLS puts electrician pay at a $63,190 median and $71,490 mean, though union scale and overtime push many journeymen higher."
-keyword: "how much do journeyman electricians make"
-publishDate: 2026-07-20
+title: How Much Do Journeyman Electricians Make a Year?
+description: BLS puts electrician pay at a $63,190 median and $71,490 mean, though union scale and overtime push many journeymen higher.
+keyword: how much do journeyman electricians make
+publishDate: '2026-07-20'
 ---
 
 The most recent federal wage data (BLS, released May 15, 2026) puts the median electrician's pay at $63,190 a year ($30.38/hour) and the mean at $71,490 ($34.37/hour), across all 757,220 US electricians. BLS doesn't break out journeyman pay separately; journeymen typically land in the middle-to-upper part of this range.

@@ -1,8 +1,8 @@
 ---
-title: "Apprentice Electrician Tool Kit: Complete Checklist"
-description: "A first-year apprentice electrician tool kit runs $180 to $385 for hand tools, while a full kit with specialty and testing tools costs $800 to $2,000."
-keyword: "apprentice electrician tool kit"
-publishDate: 2026-08-09
+title: 'Apprentice Electrician Tool Kit: Complete Checklist'
+description: A first-year apprentice electrician tool kit runs $180 to $385 for hand tools, while a full kit with specialty and testing tools costs $800 to $2,000.
+keyword: apprentice electrician tool kit
+publishDate: '2026-08-09'
 ---
 
 A first-year apprentice electrician tool kit runs roughly $180 to $385 for hand tools alone, before a multimeter, work boots, or a tool bag. That covers pliers, strippers, screwdrivers, and nut drivers, the tools you'll use on day one. A full mid-career professional kit, including specialty tools and testing equipment, typically lands between $800 and $2,000, but nobody buys that in their first month, and no reputable program expects you to.

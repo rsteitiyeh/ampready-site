@@ -1,8 +1,8 @@
 ---
-title: "Apprentice Electrician Training: What It Involves"
-description: "Apprentice electrician training pairs paid on-the-job hours with classroom instruction over 4 to 5 years. Here's how the hours, pay, and paths compare."
-keyword: "apprentice electrician training"
-publishDate: 2026-07-14
+title: 'Apprentice Electrician Training: What It Involves'
+description: Apprentice electrician training pairs paid on-the-job hours with classroom instruction over 4 to 5 years. Here's how the hours, pay, and paths compare.
+keyword: apprentice electrician training
+publishDate: '2026-07-14'
 ---
 
 Apprentice electrician training combines paid on-the-job hours under a licensed electrician with classroom instruction in code, theory, and safety, typically over 4 to 5 years and roughly 8,000 to 10,000 total hours. You earn while you learn, with wages rising on a set schedule as you log hours and pass classroom milestones.

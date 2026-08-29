@@ -1,8 +1,8 @@
 ---
-title: "Journeyman Electrician Study Guide: How to Prepare and Pass"
-description: "A journeyman electrician study guide should focus on state exam format, fast NEC navigation, and calculation drills, since most fail on time, not code."
-keyword: "journeyman electrician study guide"
-publishDate: 2026-08-04
+title: 'Journeyman Electrician Study Guide: How to Prepare and Pass'
+description: A journeyman electrician study guide should focus on state exam format, fast NEC navigation, and calculation drills, since most fail on time, not code.
+keyword: journeyman electrician study guide
+publishDate: '2026-08-04'
 ---
 
 A journeyman electrician study guide works when it's built around three things: knowing your state's exact exam format, getting fast at navigating the NEC index instead of memorizing tables, and drilling calculations until they're automatic. Most candidates who fail don't fail on obscure code, they fail on time. They know the answer but can't find the article fast enough at minute 90.

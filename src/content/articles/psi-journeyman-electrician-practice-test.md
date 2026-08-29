@@ -1,8 +1,8 @@
 ---
-title: "PSI Journeyman Electrician Exam: What to Expect"
-description: "PSI is the testing vendor, not the rule-maker. Dozens of state licensing boards contract with PSI Services LLC to deliver their journeyman electrician"
-keyword: "psi journeyman electrician practice test"
-publishDate: 2026-08-16
+title: 'PSI Journeyman Electrician Exam: What to Expect'
+description: PSI is the testing vendor, not the rule-maker. Dozens of state licensing boards contract with PSI Services LLC to deliver their journeyman electrician
+keyword: psi journeyman electrician practice test
+publishDate: '2026-08-16'
 ---
 
 PSI is the testing vendor, not the rule-maker. Dozens of state licensing boards contract with PSI Services LLC to deliver their journeyman electrician exam by computer, but each state board sets its own question count, time limit, passing score, and reference materials. A [journeyman electrician practice test](/journeyman-electrician-practice-test-guide/) built for PSI's Michigan exam (80 questions, 150 minutes, 75% to pass) looks different from PSI's Texas exam (split into a 59-question and a 26-question portion, 70% to pass each), even though both run through the exact same testing company.

@@ -1,8 +1,8 @@
 ---
-title: "Best Online Journeyman Electrician Courses Compared"
-description: "The main online journeyman electrician course options fall into four categories: textbook-and-video exam-prep programs (Mike Holt Enterprises)"
-keyword: "online journeyman electrician course"
-publishDate: 2026-08-11
+title: Best Online Journeyman Electrician Courses Compared
+description: 'The main online journeyman electrician course options fall into four categories: textbook-and-video exam-prep programs (Mike Holt Enterprises)'
+keyword: online journeyman electrician course
+publishDate: '2026-08-11'
 ---
 
 The main online journeyman electrician course options fall into four categories: textbook-and-video exam-prep programs (Mike Holt Enterprises), subscription video-lesson platforms (Electrician U), union-sponsored apprenticeship curricula (IBEW/NECA's NJATC-descended programs, delivered through local JATCs), and bare practice-question banks sold directly by testing vendors like PSI. They solve different problems, and picking the wrong category for what you actually need is the most common waste of course money.
