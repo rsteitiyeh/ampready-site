@@ -1,6 +1,6 @@
 ---
 title: "How to Choose Journeyman Electrician Classes"
-description: "\"Journeyman electrician classes\" means two different things depending on where you are in the process. If you haven't started an apprenticeship yet, it"
+description: "\\"Journeyman electrician classes\\" means two different things depending on where you are in the process. If you haven't started an apprenticeship yet, it"
 keyword: "journeyman electrician classes"
 publishDate: 2026-08-19
 ---
